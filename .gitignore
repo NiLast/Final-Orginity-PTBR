@@ -1,0 +1,6 @@
+_arquivos/runtime/node.exe
+relatorio-aplicacao.json
+_arquivos/relatorio-aplicacao.json
+translation-backups/
+backup-*/
+*.zip
