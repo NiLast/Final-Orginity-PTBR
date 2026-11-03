@@ -1,0 +1,107 @@
+[
+  {
+    "key": "MILITAR1",
+    "field": "Location",
+    "source": "Castelo da Guarda Sul",
+    "target": "Forte da Vigia do Sul"
+  },
+  {
+    "key": "MILITAR1",
+    "field": "Objectives",
+    "index": 0,
+    "source": "Vá até o castelo.",
+    "target": "Vá até o forte."
+  },
+  {
+    "key": "MILITARII",
+    "field": "Location",
+    "source": "Guarda Sul",
+    "target": "Vigia do Sul"
+  },
+  {
+    "key": "ALEX",
+    "field": "Objectives",
+    "index": 5,
+    "source": "Assista ao espetáculo da Guilda dos Bufões.",
+    "target": "Assista ao espetáculo da Guilda dos Bobos."
+  },
+  {
+    "key": "COMBATE",
+    "field": "Location",
+    "source": "Pátio da Guarda Sul de St. Polla",
+    "target": "Pátio da Vigia do Sul de St. Polla"
+  },
+  {
+    "key": "WMIKE1",
+    "field": "From",
+    "source": "Mike Submisso",
+    "target": "Mike Capacho"
+  },
+  {
+    "key": "WMIKE1",
+    "field": "Description",
+    "index": 0,
+    "source": "A virilha de Mike Submisso está coçando...\nVocê vai ajudá-lo a aliviar a coceira?\n",
+    "target": "A virilha de Mike Capacho está coçando...\nVocê vai ajudá-lo a aliviar a coceira?\n"
+  },
+  {
+    "key": "WMIKE1",
+    "field": "Objectives",
+    "index": 0,
+    "source": "Coce Mike Submisso.",
+    "target": "Coce Mike Capacho."
+  },
+  {
+    "key": "SADPLANT",
+    "field": "Objectives",
+    "index": 0,
+    "source": "Encontre a chave.",
+    "target": "Regue a planta com o Regador Astral."
+  },
+  {
+    "key": "SADPLANT",
+    "field": "Objectives",
+    "index": 1,
+    "source": "Use a chave.",
+    "target": "Use o Regador Astral."
+  },
+  {
+    "key": "DIEGOM",
+    "field": "Objectives",
+    "index": 1,
+    "source": "Leve o coelho ao castelo.",
+    "target": "Leve o coelho ao forte."
+  },
+  {
+    "key": "LETI0B",
+    "field": "Title",
+    "source": "\\i[100]Anya's Call",
+    "target": "\\i[100]O Chamado de Anya"
+  },
+  {
+    "key": "LETI0B",
+    "field": "Location",
+    "source": "Aposentos de Melo",
+    "target": "Aposentos de Anya"
+  },
+  {
+    "key": "LETI0B",
+    "field": "Description",
+    "index": 0,
+    "source": "Captain Anya told me to visit him in his quarters tonight. He asked me if tonight would be THE night...",
+    "target": "A capitã Anya pediu que eu a visitasse em seus aposentos esta noite. Ela perguntou se hoje seria A noite..."
+  },
+  {
+    "key": "LETI0B",
+    "field": "Objectives",
+    "index": 0,
+    "source": "Visit Captain Anya in her quarters tonight.",
+    "target": "Visite a capitã Anya em seus aposentos esta noite."
+  },
+  {
+    "key": "LLAVEM",
+    "field": "Location",
+    "source": "Arredores do Castelo",
+    "target": "Arredores do Forte"
+  }
+]

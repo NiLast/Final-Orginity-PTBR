@@ -1,0 +1,2428 @@
+[
+  {
+    "file": "System.json",
+    "path": [
+      "elements",
+      "Fire"
+    ],
+    "source": "Fire",
+    "target": "Fogo"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "elements",
+      "Ice"
+    ],
+    "source": "Ice",
+    "target": "Gelo"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "elements",
+      "Lightning"
+    ],
+    "source": "Lightning",
+    "target": "Raio"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "elements",
+      "Water"
+    ],
+    "source": "Water",
+    "target": "Água"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "elements",
+      "Earth"
+    ],
+    "source": "Earth",
+    "target": "Terra"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "elements",
+      "Wind"
+    ],
+    "source": "Wind",
+    "target": "Vento"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "elements",
+      "Light"
+    ],
+    "source": "Light",
+    "target": "Luz"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "elements",
+      "Darkness"
+    ],
+    "source": "Darkness",
+    "target": "Trevas"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "equipTypes",
+      "Weapon"
+    ],
+    "source": "Weapon",
+    "target": "Arma"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "equipTypes",
+      "Shield"
+    ],
+    "source": "Shield",
+    "target": "Escudo"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "equipTypes",
+      "Helmet"
+    ],
+    "source": "Helmet",
+    "target": "Capacete"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "equipTypes",
+      "Armor"
+    ],
+    "source": "Armor",
+    "target": "Armadura"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "equipTypes",
+      "Accessory"
+    ],
+    "source": "Accessory",
+    "target": "Acessório"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "skillTypes",
+      "Magic"
+    ],
+    "source": "Magic",
+    "target": "Magia"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "skillTypes",
+      "Special"
+    ],
+    "source": "Special",
+    "target": "Especial"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "weaponTypes",
+      "knife"
+    ],
+    "source": "knife",
+    "target": "Faca"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "weaponTypes",
+      "Sword"
+    ],
+    "source": "Sword",
+    "target": "Espada"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "weaponTypes",
+      "Sleeve"
+    ],
+    "source": "Sleeve",
+    "target": "Manga"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "weaponTypes",
+      "Axe"
+    ],
+    "source": "Axe",
+    "target": "Machado"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "weaponTypes",
+      "Whip"
+    ],
+    "source": "Whip",
+    "target": "Chicote"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "weaponTypes",
+      "Staff"
+    ],
+    "source": "Staff",
+    "target": "Cajado"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "weaponTypes",
+      "Bow"
+    ],
+    "source": "Bow",
+    "target": "Arco"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "weaponTypes",
+      "Crossbow"
+    ],
+    "source": "Crossbow",
+    "target": "Besta"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "weaponTypes",
+      "Gun"
+    ],
+    "source": "Gun",
+    "target": "Arma de fogo"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "weaponTypes",
+      "Claw"
+    ],
+    "source": "Claw",
+    "target": "Garra"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "weaponTypes",
+      "Gauntlet"
+    ],
+    "source": "Gauntlet",
+    "target": "Manopla"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "weaponTypes",
+      "Spear"
+    ],
+    "source": "Spear",
+    "target": "Lança"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "armorTypes",
+      "Regular armor"
+    ],
+    "source": "Regular armor",
+    "target": "Armadura comum"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "armorTypes",
+      "Magic armor"
+    ],
+    "source": "Magic armor",
+    "target": "Armadura mágica"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "armorTypes",
+      "Light armor"
+    ],
+    "source": "Light armor",
+    "target": "Armadura leve"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "armorTypes",
+      "Heavy armor"
+    ],
+    "source": "Heavy armor",
+    "target": "Armadura pesada"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "armorTypes",
+      "Light shield"
+    ],
+    "source": "Light shield",
+    "target": "Escudo leve"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "armorTypes",
+      "Heavy shield"
+    ],
+    "source": "Heavy shield",
+    "target": "Escudo pesado"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "basic",
+      "CORRUPTION LEVEL"
+    ],
+    "source": "CORRUPTION LEVEL",
+    "target": "NÍVEL DE CORRUPÇÃO"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "basic",
+      1
+    ],
+    "source": "C lvl",
+    "target": "Nív.",
+    "previous": [
+      "N. Corr."
+    ]
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "basic",
+      "HP"
+    ],
+    "source": "HP",
+    "target": "PV"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "basic",
+      "MP"
+    ],
+    "source": "MP",
+    "target": "PM"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "basic",
+      "SP"
+    ],
+    "source": "SP",
+    "target": "PE"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "commands",
+      "Fight"
+    ],
+    "source": "Fight",
+    "target": "Lutar"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "commands",
+      "Flee"
+    ],
+    "source": "Flee",
+    "target": "Fugir"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "commands",
+      "Attack"
+    ],
+    "source": "Attack",
+    "target": "Atacar"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "commands",
+      "Defend"
+    ],
+    "source": "Defend",
+    "target": "Defender"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "commands",
+      "Items"
+    ],
+    "source": "Items",
+    "target": "Itens"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "commands",
+      "Skill"
+    ],
+    "source": "Skill",
+    "target": "Habilidades"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "commands",
+      "Equipment"
+    ],
+    "source": "Equipment",
+    "target": "Equipamento"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "commands",
+      "State"
+    ],
+    "source": "State",
+    "target": "Estado"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "commands",
+      "Formation"
+    ],
+    "source": "Formation",
+    "target": "Formação"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "commands",
+      "Save"
+    ],
+    "source": "Save",
+    "target": "Salvar"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "commands",
+      "Exit"
+    ],
+    "source": "Exit",
+    "target": "Sair"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "commands",
+      "Options"
+    ],
+    "source": "Options",
+    "target": "Opções"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "commands",
+      "Weapon"
+    ],
+    "source": "Weapon",
+    "target": "Armas"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "commands",
+      "Skins"
+    ],
+    "source": "Skins",
+    "target": "Trajes"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "commands",
+      "Key object"
+    ],
+    "source": "Key object",
+    "target": "Itens-chave"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "commands",
+      "Equip"
+    ],
+    "source": "Equip",
+    "target": "Equipar"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "commands",
+      "Optimize"
+    ],
+    "source": "Optimize",
+    "target": "Otimizar"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "commands",
+      "Remove all"
+    ],
+    "source": "Remove all",
+    "target": "Remover tudo"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "commands",
+      "New Game"
+    ],
+    "source": "New Game",
+    "target": "Novo jogo"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "commands",
+      "Continue"
+    ],
+    "source": "Continue",
+    "target": "Continuar"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "commands",
+      "Go to Title"
+    ],
+    "source": "Go to Title",
+    "target": "Ir para o título"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "commands",
+      "Cancel"
+    ],
+    "source": "Cancel",
+    "target": "Cancelar"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "commands",
+      "Buy"
+    ],
+    "source": "Buy",
+    "target": "Comprar"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "commands",
+      "Sell"
+    ],
+    "source": "Sell",
+    "target": "Vender"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "params",
+      "Attack"
+    ],
+    "source": "Attack",
+    "target": "Ataque"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "params",
+      "Defense"
+    ],
+    "source": "Defense",
+    "target": "Defesa"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "params",
+      "Max. Attack"
+    ],
+    "source": "Max. Attack",
+    "target": "Ataque máx."
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "params",
+      "Max. Defense "
+    ],
+    "source": "Max. Defense ",
+    "target": "Defesa máx. "
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "params",
+      "Agility"
+    ],
+    "source": "Agility",
+    "target": "Agilidade"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "params",
+      "Luck"
+    ],
+    "source": "Luck",
+    "target": "Sorte"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "params",
+      "Success"
+    ],
+    "source": "Success",
+    "target": "Acerto"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "params",
+      "Evasion"
+    ],
+    "source": "Evasion",
+    "target": "Evasão"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "params",
+      0
+    ],
+    "source": "HP max.",
+    "target": "PV máx."
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "params",
+      1
+    ],
+    "source": "HP max.",
+    "target": "PM máx.",
+    "previous": [
+      "PV máx."
+    ]
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "actionFailure"
+    ],
+    "source": "¡Sin efecto en %1!",
+    "target": "Não teve efeito em %1!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "actorDamage"
+    ],
+    "source": "¡%1 ha recibido un daño de %2!",
+    "target": "%1 recebeu %2 de dano!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "actorDrain"
+    ],
+    "source": "¡%1 ha drenado de %2 %3!",
+    "target": "%1 drenou %2 de %3!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "actorGain"
+    ],
+    "source": "¡%1 obtiene %2 %3!",
+    "target": "%1 recebeu %2 de %3!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "actorLoss"
+    ],
+    "source": "¡%1 pierde %2 %3!",
+    "target": "%1 perdeu %2 de %3!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "actorNoDamage"
+    ],
+    "source": "¡%1 no recibió ningún daño!",
+    "target": "%1 não recebeu dano!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "actorNoHit"
+    ],
+    "source": "¡Fallo! ¡%1 no recibió ningún daño!",
+    "target": "Errou! %1 não recebeu dano!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "actorRecovery"
+    ],
+    "source": "¡%1 recupera %2 %3!",
+    "target": "%1 recuperou %2 de %3!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "alwaysDash"
+    ],
+    "source": "Always run",
+    "target": "Correr sempre"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "bgmVolume"
+    ],
+    "source": "Music volume",
+    "target": "Volume da música"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "bgsVolume"
+    ],
+    "source": "Environment volume",
+    "target": "Volume do ambiente"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "buffAdd"
+    ],
+    "source": "¡%1 de %2 subió!",
+    "target": "%1 de %2 aumentou!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "buffRemove"
+    ],
+    "source": "¡%2 de %1 ha regresado a la normalidad!",
+    "target": "%2 de %1 voltou ao normal!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "commandRemember"
+    ],
+    "source": "Remember command",
+    "target": "Memorizar comando"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "counterAttack"
+    ],
+    "source": "¡%1 contraatacó!",
+    "target": "%1 contra-atacou!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "criticalToActor"
+    ],
+    "source": "¡Un golpe doloroso!",
+    "target": "Um golpe doloroso!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "criticalToEnemy"
+    ],
+    "source": "¡Un golpe impresionante!",
+    "target": "Um golpe devastador!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "debuffAdd"
+    ],
+    "source": "¡%1 de %2 bajó!",
+    "target": "%1 de %2 diminuiu!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "defeat"
+    ],
+    "source": "%1 has lost.",
+    "target": "%1 foi derrotado!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "emerge"
+    ],
+    "source": "%1 is ready to fight!",
+    "target": "%1 está pronto para lutar!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "enemyDamage"
+    ],
+    "source": "¡%1 ha recibido daño de %2!",
+    "target": "%1 recebeu %2 de dano!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "enemyDrain"
+    ],
+    "source": "¡%1 ha drenado de %2 %3!",
+    "target": "%1 drenou %2 de %3!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "enemyGain"
+    ],
+    "source": "¡%1 obtiene %2 %3!",
+    "target": "%1 recebeu %2 de %3!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "enemyLoss"
+    ],
+    "source": "¡%1 pierde %2 %3!",
+    "target": "%1 perdeu %2 de %3!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "enemyNoDamage"
+    ],
+    "source": "¡%1 no recibió ningún daño!",
+    "target": "%1 não recebeu dano!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "enemyNoHit"
+    ],
+    "source": "¡Fallo! ¡%1 no recibió ningún daño!",
+    "target": "Errou! %1 não recebeu dano!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "enemyRecovery"
+    ],
+    "source": "¡%1 recupera %2 %3!",
+    "target": "%1 recuperou %2 de %3!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "escapeFailure"
+    ],
+    "source": "¡Pero es incapaz de conseguirlo!",
+    "target": "Mas não conseguiu escapar!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "escapeStart"
+    ],
+    "source": "¡%1 ha comenzado a huir!",
+    "target": "%1 começou a fugir!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "evasion"
+    ],
+    "source": "¡%1 evadió el ataque!",
+    "target": "%1 desviou do ataque!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "expNext"
+    ],
+    "source": "Up to %1",
+    "target": "Próximo: %1"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "expTotal"
+    ],
+    "source": "%1 current",
+    "target": "%1 atual"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "file"
+    ],
+    "source": "File",
+    "target": "Arquivo"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "levelUp"
+    ],
+    "source": "LEVEL UP! Your %2 has reached level %3!",
+    "target": "SUBIU DE NÍVEL! %2 chegou ao nível %3!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "loadMessage"
+    ],
+    "source": "Which file do you want to load?",
+    "target": "Qual arquivo você deseja carregar?"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "magicEvasion"
+    ],
+    "source": "¡%1 anuló la magia!",
+    "target": "%1 anulou a magia!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "magicReflection"
+    ],
+    "source": "¡%1 reflejó la magia!",
+    "target": "%1 refletiu a magia!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "meVolume"
+    ],
+    "source": "Melody volume",
+    "target": "Volume de melodias"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "obtainExp"
+    ],
+    "source": "You receive %1 %2!",
+    "target": "Você recebeu %1 de %2!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "obtainGold"
+    ],
+    "source": "You've got %1\\G!",
+    "target": "Você recebeu %1\\G!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "obtainItem"
+    ],
+    "source": "You got %1!",
+    "target": "Você recebeu %1!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "obtainSkill"
+    ],
+    "source": "You've learned %1!",
+    "target": "Você aprendeu %1!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "partyName"
+    ],
+    "source": "%1's party",
+    "target": "Grupo de %1"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "possession"
+    ],
+    "source": "You have",
+    "target": "Você possui"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "preemptive"
+    ],
+    "source": "%1 attacks first!",
+    "target": "%1 atacou primeiro!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "saveMessage"
+    ],
+    "source": "In which file do you want to save?",
+    "target": "Em qual arquivo você deseja salvar?"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "seVolume"
+    ],
+    "source": "Effects volume",
+    "target": "Volume dos efeitos"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "substitute"
+    ],
+    "source": "¡%1 protegió a %2!",
+    "target": "%1 protegeu %2!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "surprise"
+    ],
+    "source": "%1 fue sorprendido!",
+    "target": "%1 foi surpreendido!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "useItem"
+    ],
+    "source": "¡%1 usa %2!",
+    "target": "%1 usou %2!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "victory"
+    ],
+    "source": "%1 has won!",
+    "target": "%1 venceu!"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "touchUI"
+    ],
+    "source": "Touch UI",
+    "target": "Interface de toque"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "terms",
+      "messages",
+      "autosave"
+    ],
+    "source": "Autosave",
+    "target": "Salvamento automático"
+  },
+  {
+    "file": "System.json",
+    "path": [
+      "currencyUnit"
+    ],
+    "source": " Gold",
+    "target": " Ouro"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      1,
+      "description"
+    ],
+    "source": "It's smells funny and it tends to make things funnier.",
+    "target": "Tem um cheiro estranho e costuma deixar tudo mais engraçado."
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      2,
+      "name"
+    ],
+    "source": "Laundry",
+    "target": "Roupa suja"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      2,
+      "description"
+    ],
+    "source": "Gotta pick'em all!",
+    "target": "Tem que pegar todas!"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      3,
+      "name"
+    ],
+    "source": "Meat",
+    "target": "Carne"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      3,
+      "description"
+    ],
+    "source": "Better than fish, IMHO.",
+    "target": "Melhor que peixe, na minha opinião."
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      4,
+      "name"
+    ],
+    "source": "Orky Ale",
+    "target": "Cerveja Ork"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      4,
+      "description"
+    ],
+    "source": "\"Brew'd up da propa Orky way, wiv da bestest hops, \nbarley malt, an' da finest BLOOD of our enemies\"",
+    "target": "\"Feita du jeitu Ork certo, cum os mió lúpulo, \nmalte de cevada e o mió SANGUE dos inimigo\""
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      5,
+      "name"
+    ],
+    "source": "Work Permit",
+    "target": "Permissão de trabalho"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      5,
+      "description"
+    ],
+    "source": "It says it's valid for two years.",
+    "target": "Diz que é válida por dois anos."
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      6,
+      "name"
+    ],
+    "source": "Dark Elf's Letter",
+    "target": "Carta da Elfa Negra"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      6,
+      "description"
+    ],
+    "source": "A message to a Dark Elf tourist girl.",
+    "target": "Uma mensagem para uma turista Elfa Negra."
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      7,
+      "name"
+    ],
+    "source": "Apartment key",
+    "target": "Chave do apartamento"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      7,
+      "description"
+    ],
+    "source": "A key for my humble abode.",
+    "target": "A chave da minha humilde morada."
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      8,
+      "description"
+    ],
+    "source": "Capable of \"reinvigorating\" a horseman.",
+    "target": "Capaz de \"revigorar\" um homem-cavalo."
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      9,
+      "name"
+    ],
+    "source": "Notebook",
+    "target": "Caderno"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      9,
+      "description"
+    ],
+    "source": "It's black and supposedly important",
+    "target": "É preto e supostamente importante."
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      10,
+      "name"
+    ],
+    "source": "Mysterious amulet",
+    "target": "Amuleto misterioso"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      10,
+      "description"
+    ],
+    "source": "Though not made of gold, it has a unique, \nexpensive appeal.",
+    "target": "Embora não seja de ouro, tem uma aparência única \ne valiosa."
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      11,
+      "name"
+    ],
+    "source": "Short Lockpick",
+    "target": "Gazua curta"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      11,
+      "description"
+    ],
+    "source": "Suitable for unlocking minor locks, use sparingly.\n",
+    "target": "Adequada para fechaduras simples. Use com cuidado.\n"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      12,
+      "name"
+    ],
+    "source": "Museum Tickets",
+    "target": "Ingressos do museu"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      12,
+      "description"
+    ],
+    "source": "Valid for two people.",
+    "target": "Válidos para duas pessoas."
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      13,
+      "name"
+    ],
+    "source": "Crate of Beer",
+    "target": "Caixote de cerveja"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      13,
+      "description"
+    ],
+    "source": "A heavy crate of Abaddon's Helles.",
+    "target": "Um caixote pesado de Helles de Abaddon."
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      14,
+      "name"
+    ],
+    "source": "Spider Crab",
+    "target": "Caranguejo-aranha"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      14,
+      "description"
+    ],
+    "source": "Seafood lovers rejoice over its succulent taste.\n",
+    "target": "Os amantes de frutos do mar adoram seu sabor suculento.\n"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      15,
+      "name"
+    ],
+    "source": "Blue Spiny Crab",
+    "target": "Caranguejo-espinhoso azul"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      15,
+      "description"
+    ],
+    "source": "Tastier and bluer than the red one.",
+    "target": "Mais saboroso e mais azul que o vermelho."
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      16,
+      "name"
+    ],
+    "source": "Small key",
+    "target": "Chave pequena"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      16,
+      "description"
+    ],
+    "source": "A small key I could use to open one of the doors\nof the area.",
+    "target": "Uma chave pequena que posso usar para abrir uma das\nportas da área."
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      17,
+      "name"
+    ],
+    "source": "Laz 'Special Jar'",
+    "target": "\"Pote Especial\" de Laz"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      17,
+      "description"
+    ],
+    "source": "Laz would be glad to have it back.",
+    "target": "Laz ficaria feliz em tê-lo de volta."
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      18,
+      "name"
+    ],
+    "source": "Jester Guild Tickets",
+    "target": "Ingressos da Guilda dos Bufões"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      18,
+      "description"
+    ],
+    "source": "Valid for two people.",
+    "target": "Válidos para duas pessoas."
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      19,
+      "name"
+    ],
+    "source": "Soap",
+    "target": "Sabonete"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      19,
+      "description"
+    ],
+    "source": "Be careful NOT to drop it!",
+    "target": "Cuidado para NÃO deixar cair!"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      20,
+      "name"
+    ],
+    "source": "Wood",
+    "target": "Madeira"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      20,
+      "description"
+    ],
+    "source": "You can make fire with this.",
+    "target": "Dá para fazer uma fogueira com isto."
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      21,
+      "name"
+    ],
+    "source": "Rusty Key",
+    "target": "Chave enferrujada"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      21,
+      "description"
+    ],
+    "source": "A rusty key that I found deep in one of the drains... \nI wonder which door it will open.",
+    "target": "Uma chave enferrujada que encontrei no fundo de um ralo... \nSerá que abre qual porta?"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      22,
+      "name"
+    ],
+    "source": "Rico's Note",
+    "target": "Bilhete de Rico"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      22,
+      "description"
+    ],
+    "source": "It says: \"Vault 203, Opening Code: 420420\".",
+    "target": "Diz: \"Cofre 203, Código de abertura: 420420\"."
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      23,
+      "name"
+    ],
+    "source": "Strong Lockpick",
+    "target": "Gazua reforçada"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      23,
+      "description"
+    ],
+    "source": "Just a lockpick, but strong!",
+    "target": "É só uma gazua, mas é resistente!"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      24,
+      "name"
+    ],
+    "source": "Small Totem",
+    "target": "Totem pequeno"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      24,
+      "description"
+    ],
+    "source": "A mysterious statuette of a goddess. At the bottom \nyou can read: \"Return to Mr. Green Man\"",
+    "target": "Uma estatueta misteriosa de uma deusa. Na base, lê-se: \n\"Devolver ao Sr. Homem Verde\""
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      25,
+      "name"
+    ],
+    "source": "Candy",
+    "target": "Doce"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      25,
+      "description"
+    ],
+    "source": "A regular sweet?",
+    "target": "Um doce comum?"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      26,
+      "name"
+    ],
+    "source": "Pink Comb",
+    "target": "Pente rosa"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      26,
+      "description"
+    ],
+    "source": "It's a comb and it's also pink!",
+    "target": "É um pente e também é rosa!"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      27,
+      "name"
+    ],
+    "source": "Wooden Shed's Key",
+    "target": "Chave do galpão de madeira"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      27,
+      "description"
+    ],
+    "source": "Looks like the key to a wooden shed.",
+    "target": "Parece ser a chave de um galpão de madeira."
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      28,
+      "name"
+    ],
+    "source": "Clown Ork's Paper Bag",
+    "target": "Sacola de papel do Ork Palhaço"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      28,
+      "description"
+    ],
+    "source": "It smells kinda weird, but a Clown Ork asked me \nto take it to him at the dock!",
+    "target": "Tem um cheiro meio estranho, mas um Ork Palhaço pediu \nque eu a leve até ele no cais!"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      29,
+      "name"
+    ],
+    "source": "Sexy Outfit ",
+    "target": "Traje sensual "
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      29,
+      "description"
+    ],
+    "source": "This one is made by the Ork Tailor.",
+    "target": "Este foi feito pelo Alfaiate Ork."
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      30,
+      "name"
+    ],
+    "source": "MysteryBag",
+    "target": "Sacola misteriosa"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      31,
+      "name"
+    ],
+    "source": "Greenies Box",
+    "target": "Caixa de verdinhos"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      31,
+      "description"
+    ],
+    "source": "Homegrown by Pepa. 100% guaranteed \nto make you greener!",
+    "target": "Cultivados pela Pepa. Garantia de 100% \nde deixar você mais verde!"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      32,
+      "name"
+    ],
+    "source": "Very Sick Ork's Closet Key",
+    "target": "Chave do armário do Ork muito doente"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      32,
+      "description"
+    ],
+    "source": "What could be inside that closet?",
+    "target": "O que será que há dentro daquele armário?"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      33,
+      "name"
+    ],
+    "source": "Astral Watering Can",
+    "target": "Regador astral"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      33,
+      "description"
+    ],
+    "source": "It isn't a real one, but the water imside does look real!",
+    "target": "Não é de verdade, mas a água dentro parece real!"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      34,
+      "name"
+    ],
+    "source": "Astral Key",
+    "target": "Chave astral"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      34,
+      "description"
+    ],
+    "source": "It should open something... \"astrally\".",
+    "target": "Deve abrir alguma coisa... \"astralmente\"."
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      35,
+      "name"
+    ],
+    "source": "Golden Astral Key",
+    "target": "Chave astral dourada"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      35,
+      "description"
+    ],
+    "source": "It's a key, it's astral and it's golden!",
+    "target": "É uma chave, é astral e é dourada!"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      36,
+      "name"
+    ],
+    "source": "Red House ID",
+    "target": "Identificação da Casa Vermelha"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      36,
+      "description"
+    ],
+    "source": "I can use this to get into the RLD without trouble.",
+    "target": "Posso usar isto para entrar no Distrito da Luz Vermelha sem problemas."
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      37,
+      "name"
+    ],
+    "source": "Boñiga's Bureau Key",
+    "target": "Chave do escritório de Boñiga"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      37,
+      "description"
+    ],
+    "source": "Reserved for Security Staff.",
+    "target": "Reservada para a equipe de segurança."
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      38,
+      "name"
+    ],
+    "source": "Red House Bungalow No. 2 Keys",
+    "target": "Chaves do bangalô nº 2 da Casa Vermelha"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      38,
+      "description"
+    ],
+    "source": "2 keys. One for the main door, and one for...",
+    "target": "Duas chaves. Uma para a porta principal e outra para..."
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      39,
+      "name"
+    ],
+    "source": "Laz' Lute",
+    "target": "Alaúde de Laz"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      39,
+      "description"
+    ],
+    "source": "It looks like it's a brand-new instrument, \nready to be used!",
+    "target": "Parece um instrumento novinho em folha, \npronto para ser usado!"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      40,
+      "name"
+    ],
+    "source": "Audience Permit",
+    "target": "Permissão de audiência"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      40,
+      "description"
+    ],
+    "source": "This paper let me have an audience with the\nGate Keeper.",
+    "target": "Este documento me permite ter uma audiência com o\nGuardião do Portão."
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      41,
+      "name"
+    ],
+    "source": "Lil Pimp's Note",
+    "target": "Bilhete de Lil Pimp"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      41,
+      "description"
+    ],
+    "source": "This note includes an invitation to meet Lil Pimp \nin his office in the Red Brothel.",
+    "target": "Este bilhete traz um convite para encontrar Lil Pimp \nno escritório dele no Bordel Vermelho."
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      42,
+      "name"
+    ],
+    "source": "Numbered Ticket",
+    "target": "Senha numerada"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      42,
+      "description"
+    ],
+    "source": "I guess I'll just have to wait!",
+    "target": "Acho que vou ter que esperar!"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      43,
+      "name"
+    ],
+    "source": "Petar's (Opened) Letter",
+    "target": "Carta (aberta) de Petar"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      43,
+      "description"
+    ],
+    "source": "Somebody opened the envelope...\nI should read it ASAP!",
+    "target": "Alguém abriu o envelope...\nTenho que ler isto o quanto antes!"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      44,
+      "name"
+    ],
+    "source": "Special Silver Key",
+    "target": "Chave de prata especial"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      44,
+      "description"
+    ],
+    "source": "I wonder what this silver key unlocks.",
+    "target": "O que será que esta chave de prata abre?"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      45,
+      "name"
+    ],
+    "source": "Cryptoporticus Blueprints",
+    "target": "Plantas do Criptoporticus"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      45,
+      "description"
+    ],
+    "source": "These are the blueprints of a massive underground \nstructure.",
+    "target": "Estas são as plantas de uma enorme estrutura \nsubterrânea."
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      46,
+      "name"
+    ],
+    "source": "Official Royal District Pass",
+    "target": "Passe oficial do Distrito Real"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      47,
+      "name"
+    ],
+    "source": "Max Health Potion",
+    "target": "Poção de vida máxima"
+  },
+  {
+    "file": "Items.json",
+    "path": [
+      47,
+      "description"
+    ],
+    "source": "It'll restore you to FULL HEALTH instantly.",
+    "target": "Restaura TODA A VIDA instantaneamente."
+  },
+  {
+    "file": "Skills.json",
+    "path": [
+      1,
+      "name"
+    ],
+    "source": "Attack",
+    "target": "Atacar"
+  },
+  {
+    "file": "Skills.json",
+    "path": [
+      1,
+      "message1"
+    ],
+    "source": "%1 attacks!",
+    "target": "%1 atacou!"
+  },
+  {
+    "file": "Skills.json",
+    "path": [
+      2,
+      "name"
+    ],
+    "source": "Guard",
+    "target": "Defender"
+  },
+  {
+    "file": "Skills.json",
+    "path": [
+      2,
+      "message1"
+    ],
+    "source": "%1 guards!",
+    "target": "%1 se defendeu!"
+  },
+  {
+    "file": "Skills.json",
+    "path": [
+      11,
+      "name"
+    ],
+    "source": "Attack",
+    "target": "Atacar"
+  },
+  {
+    "file": "Skills.json",
+    "path": [
+      12,
+      "name"
+    ],
+    "source": "Attack Hit",
+    "target": "Golpe de ataque"
+  },
+  {
+    "file": "Skills.json",
+    "path": [
+      12,
+      "message1"
+    ],
+    "source": "%1 attacks!",
+    "target": "%1 atacou!"
+  },
+  {
+    "file": "Skills.json",
+    "path": [
+      51,
+      "name"
+    ],
+    "source": "Basic Attack",
+    "target": "Ataque básico"
+  },
+  {
+    "file": "Skills.json",
+    "path": [
+      51,
+      "message1"
+    ],
+    "source": "%1 attacks!",
+    "target": "%1 atacou!"
+  },
+  {
+    "file": "Armors.json",
+    "path": [
+      1,
+      "name"
+    ],
+    "source": "Regular clothes",
+    "target": "Roupas comuns"
+  },
+  {
+    "file": "Armors.json",
+    "path": [
+      2,
+      "name"
+    ],
+    "source": "Guard armor",
+    "target": "Armadura de guarda"
+  },
+  {
+    "file": "Armors.json",
+    "path": [
+      3,
+      "name"
+    ],
+    "source": "BBC uniform",
+    "target": "Uniforme da BBC"
+  },
+  {
+    "file": "Armors.json",
+    "path": [
+      3,
+      "description"
+    ],
+    "source": "que pasa chaval",
+    "target": "E aí, rapaz?"
+  },
+  {
+    "file": "Armors.json",
+    "path": [
+      4,
+      "name"
+    ],
+    "source": "Maid uniform",
+    "target": "Uniforme de empregada"
+  },
+  {
+    "file": "Armors.json",
+    "path": [
+      5,
+      "name"
+    ],
+    "source": "Horse women's dress",
+    "target": "Vestido de mulher-cavalo"
+  },
+  {
+    "file": "Armors.json",
+    "path": [
+      6,
+      "name"
+    ],
+    "source": "Slave's rags",
+    "target": "Trapos de escrava"
+  },
+  {
+    "file": "Armors.json",
+    "path": [
+      7,
+      "name"
+    ],
+    "source": "Water Monday Bikini",
+    "target": "Biquíni da Segunda da Água"
+  },
+  {
+    "file": "Armors.json",
+    "path": [
+      8,
+      "name"
+    ],
+    "source": "Casual military wear",
+    "target": "Traje militar casual"
+  },
+  {
+    "file": "Armors.json",
+    "path": [
+      9,
+      "name"
+    ],
+    "source": "Towel",
+    "target": "Toalha"
+  },
+  {
+    "file": "Armors.json",
+    "path": [
+      10,
+      "name"
+    ],
+    "source": "Nude",
+    "target": "Nua"
+  },
+  {
+    "file": "States.json",
+    "path": [
+      2,
+      "name"
+    ],
+    "source": "Guard",
+    "target": "Defesa"
+  },
+  {
+    "file": "States.json",
+    "path": [
+      3,
+      "name"
+    ],
+    "source": "Boner",
+    "target": "Excitação"
+  },
+  {
+    "file": "Actors.json",
+    "path": [
+      4,
+      "name"
+    ],
+    "source": "Mercenary",
+    "target": "Mercenário"
+  },
+  {
+    "file": "Actors.json",
+    "path": [
+      9,
+      "name"
+    ],
+    "source": "Guard",
+    "target": "Guarda"
+  },
+  {
+    "file": "Actors.json",
+    "path": [
+      10,
+      "name"
+    ],
+    "source": "Guardsman",
+    "target": "Soldado"
+  },
+  {
+    "file": "Actors.json",
+    "path": [
+      17,
+      "name"
+    ],
+    "source": "Gnome",
+    "target": "Gnomo"
+  },
+  {
+    "file": "Actors.json",
+    "path": [
+      23,
+      "name"
+    ],
+    "source": "Companion Greenman",
+    "target": "Companheiro Homem Verde"
+  },
+  {
+    "file": "Actors.json",
+    "path": [
+      29,
+      "name"
+    ],
+    "source": "Old Blind Ghost",
+    "target": "Velho Fantasma Cego"
+  },
+  {
+    "file": "Actors.json",
+    "path": [
+      35,
+      "name"
+    ],
+    "source": "Disabled Veteran",
+    "target": "Veterano com deficiência"
+  },
+  {
+    "file": "Actors.json",
+    "path": [
+      37,
+      "name"
+    ],
+    "source": "Hobo",
+    "target": "Morador de rua"
+  },
+  {
+    "file": "Map013.json",
+    "path": [
+      "displayName"
+    ],
+    "source": "Outer St. Polla (South)",
+    "target": "Arredores de St. Polla (Sul)"
+  },
+  {
+    "file": "Map026.json",
+    "path": [
+      "displayName"
+    ],
+    "source": "St. Polla Southern Gates",
+    "target": "Portões Sul de St. Polla"
+  },
+  {
+    "file": "Map028.json",
+    "path": [
+      "displayName"
+    ],
+    "source": "Outer St. Polla (South)",
+    "target": "Arredores de St. Polla (Sul)"
+  },
+  {
+    "file": "Map029.json",
+    "path": [
+      "displayName"
+    ],
+    "source": "Patricians' Park",
+    "target": "Parque dos Patrícios"
+  },
+  {
+    "file": "Map030.json",
+    "path": [
+      "displayName"
+    ],
+    "source": "Abaddon's Abbey",
+    "target": "Abadia de Abaddon"
+  },
+  {
+    "file": "Map044.json",
+    "path": [
+      "displayName"
+    ],
+    "source": "West Market Plaza",
+    "target": "Praça do Mercado Oeste"
+  },
+  {
+    "file": "Map049.json",
+    "path": [
+      "displayName"
+    ],
+    "source": "Patricians' Park",
+    "target": "Parque dos Patrícios"
+  },
+  {
+    "file": "Map071.json",
+    "path": [
+      "displayName"
+    ],
+    "source": "Abaddon's Abbey",
+    "target": "Abadia de Abaddon"
+  },
+  {
+    "file": "Map073.json",
+    "path": [
+      "displayName"
+    ],
+    "source": "Abaddon's Abbey",
+    "target": "Abadia de Abaddon"
+  },
+  {
+    "file": "Map087.json",
+    "path": [
+      "displayName"
+    ],
+    "source": "Patricians' Park",
+    "target": "Parque dos Patrícios"
+  },
+  {
+    "file": "Map134.json",
+    "path": [
+      "displayName"
+    ],
+    "source": "Southern Watch's Courtyard",
+    "target": "Pátio do Forte da Vigia do Sul",
+    "previous": [
+      "Pátio da Guarda Sul"
+    ]
+  },
+  {
+    "file": "Map168.json",
+    "path": [
+      "displayName"
+    ],
+    "source": "Red Light District",
+    "target": "Distrito da Luz Vermelha"
+  },
+  {
+    "file": "Map196.json",
+    "path": [
+      "displayName"
+    ],
+    "source": "Morgh's Palisade",
+    "target": "Paliçada de Morgh"
+  },
+  {
+    "file": "Map199.json",
+    "path": [
+      "displayName"
+    ],
+    "source": "Abaddon's Abbey",
+    "target": "Abadia de Abaddon"
+  }
+]

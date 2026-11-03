@@ -1,0 +1,25 @@
+{
+  "General:struct": {
+    "CommandWindow_Known_Text:str": "Disponíveis",
+    "CommandWindow_Completed_Text:str": "Concluídas",
+    "CommandWindow_Failed_Text:str": "Fracassadas",
+    "EmptyTitleLabel:str": "\\i[186]Diário de Missões",
+    "NoQuestListed:str": "(Nenhuma Missão Listada)",
+    "LogEmpty:json": "\\c[5]Missões Principais\\c[0] são missões que precisam ser\nconcluídas para avançar ainda mais\nna história do jogo.\n\n\\c[6]Missões Secundárias\\c[0] são opcionais e podem\nser concluídas quando você quiser. Ao\nconcluir uma missão secundária, você pode receber\nrecompensas úteis durante sua jornada.",
+    "LogFmt:json": "\\c[4]Origem:\\c[0] [[From]]\n\\c[4]Local:\\c[0] [[Location]]\n\\c[4]Descrição:\\c[0]\n[[Description]]\n\\c[4]Objetivos:\\c[0]\n[[Objectives]]\n\\c[4]Recompensas:\\c[0]\n[[Rewards]]\n[[Subtext]]\n[[Quote]]",
+    "ButtonAssistPageUpDown:str": "Rolar para Cima/Baixo",
+    "questButtonAssistActive:str": "Rastrear",
+    "ButtonAssistExpand:str": "Expandir",
+    "ButtonAssistCollapse:str": "Recolher"
+  },
+  "Label:struct": {
+    "Text:str": "MISSÃO"
+  },
+  "Tracker:struct": {
+    "ShowName:str": "Mostrar Rastreador de Missões",
+    "PositionName:str": "Posição do Rastreador de Missões"
+  },
+  "MainMenu:struct": {
+    "Name:str": "Missões"
+  }
+}

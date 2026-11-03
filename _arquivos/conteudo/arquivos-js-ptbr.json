@@ -1,0 +1,157 @@
+[
+  {
+    "file": "js/rmmz_windows.js",
+    "source": "return value ? \"ON\" : \"OFF\";",
+    "target": "return value ? \"LIGADO\" : \"DESLIGADO\";"
+  },
+  {
+    "file": "js/plugins/FO_CustomResolution.js",
+    "source": "this.addCommand('Resolution', 'resolution');",
+    "target": "this.addCommand('Resolução', 'resolution');"
+  },
+  {
+    "file": "js/plugins/FO_Quit.js",
+    "source": "this.addCommand(\"Quit\", \"quit\");",
+    "target": "this.addCommand(\"Sair\", \"quit\");"
+  },
+  {
+    "file": "js/plugins/FO_Battle.js",
+    "source": "this.createRow(['Miss'], 0);",
+    "target": "this.createRow(['Errou'], 0);"
+  },
+  {
+    "file": "js/plugins/LockpickSystem.js",
+    "source": "\"You don't have any lockpicks!\"",
+    "target": "\"Você não tem nenhuma gazua!\""
+  },
+  {
+    "file": "js/plugins/LockpickSystem.js",
+    "source": "\"You successfully opened the lock!\"",
+    "target": "\"Você abriu a fechadura!\""
+  },
+  {
+    "file": "js/plugins/LockpickSystem.js",
+    "source": "\"Lockpick Broken!\"",
+    "target": "\"A gazua quebrou!\""
+  },
+  {
+    "file": "js/plugins/LockpickSystem.js",
+    "source": "\"Fail... Attempts left:\"",
+    "target": "\"Falhou... Tentativas restantes:\""
+  },
+  {
+    "file": "js/plugins/LockpickSystem.js",
+    "source": "\"No risk, 99% success\"",
+    "target": "\"Sem risco, 99% de sucesso\""
+  },
+  {
+    "file": "js/plugins/LockpickSystem.js",
+    "source": "\"Easy, 75% success\"",
+    "target": "\"Fácil, 75% de sucesso\""
+  },
+  {
+    "file": "js/plugins/LockpickSystem.js",
+    "source": "\"Normal, 50% success\"",
+    "target": "\"Normal, 50% de sucesso\""
+  },
+  {
+    "file": "js/plugins/LockpickSystem.js",
+    "source": "\"Hard, 25% success\"",
+    "target": "\"Difícil, 25% de sucesso\""
+  },
+  {
+    "file": "js/plugins/LockpickSystem.js",
+    "source": "\"Impossible, 1% success\"",
+    "target": "\"Impossível, 1% de sucesso\""
+  },
+  {
+    "file": "js/plugins/LockpickSystem.js",
+    "source": "\"Do you want to break this lock?\"",
+    "target": "\"Deseja arrombar esta fechadura?\""
+  },
+  {
+    "file": "js/plugins/LockpickSystem.js",
+    "source": "[\"Yes\", \"No\"]",
+    "target": "[\"Sim\", \"Não\"]"
+  },
+  {
+    "file": "js/plugins/LockpickSystem.js",
+    "source": "`\\\\I[8]Found ${item.amount} Gold!`",
+    "target": "`\\\\I[8]Você encontrou ${item.amount} de Ouro!`"
+  },
+  {
+    "file": "js/plugins/LockpickSystem.js",
+    "source": "`\\\\I[${$dataItems[item.id].iconIndex}]Found: ${itemName}!`",
+    "target": "`\\\\I[${$dataItems[item.id].iconIndex}]Encontrado: ${itemName}!`"
+  },
+  {
+    "file": "js/plugins/LockpickSystem.js",
+    "source": "\"(Found something in the trash!)\"",
+    "target": "\"(Encontrei algo no lixo!)\""
+  },
+  {
+    "file": "js/plugins/LockpickSystem.js",
+    "source": "'(Nothing but garbage here...)'",
+    "target": "'(Só tem lixo aqui...)'"
+  },
+  {
+    "file": "js/plugins/LockpickSystem.js",
+    "source": "\"(Looks like there's something here!)\"",
+    "target": "\"(Parece que há alguma coisa aqui!)\""
+  },
+  {
+    "file": "js/plugins/LockpickSystem.js",
+    "source": "'\\\\I[32]You have found the legendary Ropo!'",
+    "target": "'\\\\I[32]Você encontrou o lendário Ropo!'"
+  },
+  {
+    "file": "js/plugins/LockpickSystem.js",
+    "source": "\"(Hmmm… nope, it's empty.)\"",
+    "target": "\"(Hmmm... não, está vazio.)\""
+  },
+  {
+    "file": "js/plugins/LockpickSeller.js",
+    "source": "`\\\\I[8] \\\\C[14]Gold: ${PlayerGold}\\\\C[0]`",
+    "target": "`\\\\I[8] \\\\C[14]Ouro: ${PlayerGold}\\\\C[0]`"
+  },
+  {
+    "file": "js/plugins/LockpickSeller.js",
+    "source": "\"Welcome to my Lockpicks Shop!\"",
+    "target": "\"Bem-vinda à minha loja de gazuas!\""
+  },
+  {
+    "file": "js/plugins/LockpickSeller.js",
+    "source": "\"Buy \\\\I[11] Short Lockpick (2 Gold)\"",
+    "target": "\"Comprar \\\\I[11] Gazua curta (2 de Ouro)\""
+  },
+  {
+    "file": "js/plugins/LockpickSeller.js",
+    "source": "\"Buy \\\\I[26] Strong Lockpick (6 Gold)\"",
+    "target": "\"Comprar \\\\I[26] Gazua reforçada (6 de Ouro)\""
+  },
+  {
+    "file": "js/plugins/LockpickSeller.js",
+    "source": "\"Buy \\\\I[6] Mystery Bag (4 Gold)\"",
+    "target": "\"Comprar \\\\I[6] Sacola misteriosa (4 de Ouro)\""
+  },
+  {
+    "file": "js/plugins/LockpickSeller.js",
+    "source": "\"Leave\"",
+    "target": "\"Sair\""
+  },
+  {
+    "file": "js/plugins/LockpickSeller.js",
+    "source": "\"Thanks for buying!\"",
+    "target": "\"Agradeço pela compra!\""
+  },
+  {
+    "file": "js/plugins/LockpickSeller.js",
+    "source": "\"Not enough gold!\"",
+    "target": "\"Ouro insuficiente!\""
+  },
+  {
+    "file": "js/plugins/LockpickSeller.js",
+    "source": "`You got a ${item.name}!`",
+    "target": "`Você recebeu: ${item.name}!`"
+  }
+]

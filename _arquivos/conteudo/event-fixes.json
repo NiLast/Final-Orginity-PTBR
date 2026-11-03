@@ -1,0 +1,75 @@
+[
+  {
+    "file": "CommonEvents.json",
+    "event": 79,
+    "eventName": "SB_VIEJOSHOTSPRINGSRICOS",
+    "page": 0,
+    "before": "cd9f6922a00f6d6d3bdf2cac112639e87e085d8986be4550577de78a78ddab2a",
+    "after": "8a549fc14fc248a23e89229580194d64737650b4db88dce42836a191e995ef7d",
+    "mode": "rename",
+    "from": "final",
+    "to": "Final"
+  },
+  {
+    "file": "CommonEvents.json",
+    "event": 110,
+    "eventName": "RLD_ESC-ROPOGUYSCHARLA",
+    "page": 0,
+    "before": "6cedcf4434dcd4046a56d9eda0cc512f6cb000eb88bbaeabca8998617d1a1e91",
+    "after": "f1f5856e680233ebfb26b901da848a10f995744d09937cff416ffdfaf368d010",
+    "mode": "rename",
+    "from": "1",
+    "to": "5"
+  },
+  {
+    "file": "Map102.json",
+    "event": 11,
+    "eventName": "KyliA",
+    "page": 4,
+    "before": "d5efd4eccd0522180e1bc2203d52c69a228450df7d4b2a8ece0f4f718673eab7",
+    "after": "6a377b50a9c8f5a290db2cca70e2a5af087dbc370775b9f857b12fa29a58d3d3",
+    "mode": "rename",
+    "from": "ESCENA",
+    "to": "Escena"
+  },
+  {
+    "file": "Map037.json",
+    "event": 29,
+    "eventName": "EV029",
+    "page": 0,
+    "before": "5a85ddef20f0935fea6c305c59b7ce27549e26bd77476fe720937ae9687d33ec",
+    "after": "73192839731a7a3baaaccb63a612d4069e977d29aafa676e928d056bfa7e0868",
+    "mode": "insert",
+    "from": "IRSE",
+    "to": 484,
+    "anchorBefore": { "code": 402 },
+    "anchorAfter": { "code": 357 }
+  },
+  {
+    "file": "Map037.json",
+    "event": 30,
+    "eventName": "EV030",
+    "page": 0,
+    "before": "c2e2aa7990e384c018b60b8bb6d2543b1015e6a4874ba92c4f3c98f24bcdf94f",
+    "after": "e51c82a940b187cfd30bb429af60d8bb922498b0783a985b34efe97057702ee2",
+    "mode": "insert",
+    "from": "IRSE",
+    "to": 417,
+    "anchorBefore": { "code": 402 },
+    "anchorAfter": { "code": 357 }
+  },
+  {
+    "file": "Map096.json",
+    "event": 72,
+    "eventName": "EV072",
+    "page": 2,
+    "before": "0d45158d9ac1a8fcd4c3b09fcee755b2d10d2fe09224deb99a25e31b7eb91c68",
+    "after": "930b028397836a5453cb40b8ec7917331d101dc78e66336dd505108d17e11f14",
+    "mode": "insert",
+    "from": "GOMUL",
+    "to": 109,
+    "anchorBefore": { "code": 402 },
+    "anchorAfter": { "code": 231 },
+    "anchorNext": { "code": 101 }
+  }
+]

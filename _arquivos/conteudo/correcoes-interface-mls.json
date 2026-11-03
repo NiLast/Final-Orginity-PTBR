@@ -1,0 +1,46 @@
+[
+  {
+    "source": "\\i[100]Anya's Call",
+    "target": "\\i[100]O Chamado de Anya"
+  },
+  {
+    "source": "Captain Anya told me to visit him in his quarters tonight. He asked me if tonight would be THE night...",
+    "target": "A capitã Anya pediu que eu a visitasse em seus aposentos esta noite. Ela perguntou se hoje seria A noite..."
+  },
+  {
+    "source": "Visit Captain Anya in her quarters tonight.",
+    "target": "Visite a capitã Anya em seus aposentos esta noite."
+  },
+  {
+    "source": "\\c[2]Quests Ocultas",
+    "target": "\\c[2]Missões Ocultas"
+  },
+  {
+    "source": "Castelo da Guarda Sul",
+    "target": "Forte da Vigia do Sul"
+  },
+  {
+    "source": "Vá até o castelo.",
+    "target": "Vá até o forte."
+  },
+  {
+    "source": "Guarda Sul",
+    "target": "Vigia do Sul"
+  },
+  {
+    "source": "Pátio da Guarda Sul de St. Polla",
+    "target": "Pátio da Vigia do Sul de St. Polla"
+  },
+  {
+    "source": "Leve o coelho ao castelo.",
+    "target": "Leve o coelho ao forte."
+  },
+  {
+    "source": "Arredores do Castelo",
+    "target": "Arredores do Forte"
+  },
+  {
+    "source": "Text Speed",
+    "target": "Velocidade do texto"
+  }
+]

@@ -1,0 +1,2290 @@
+[
+  {
+    "source": "\"\\\"A discerning eye needs only a hint, and\nunderstatement leaves the imagination\nfree to build its own elaborations.\\\"\n\n~Russell Page\"",
+    "target": "\"\\\"Um olhar perspicaz precisa apenas de uma dica, e\na sutileza deixa a imaginação livre\npara criar seus próprios detalhes.\\\"\n\n~Russell Page\""
+  },
+  {
+    "source": "\"\\\"A pessimist sees the difficulty in\nevery opportunity; an optimist sees the\nopportunity in every difficulty.\\\"\n\n~Winston Churchill\"",
+    "target": "\"\\\"Um pessimista vê dificuldade em\ntoda oportunidade; um otimista vê\noportunidade em toda dificuldade.\\\"\n\n~Winston Churchill\""
+  },
+  {
+    "source": "\"\\\"Description begins in the writer's\nimagination but should finish in the\nreader's.\\\"\n\n~Stephen King\"",
+    "target": "\"\\\"A descrição começa na imaginação do\nescritor, mas deve terminar na\ndo leitor.\\\"\n\n~Stephen King\""
+  },
+  {
+    "source": "\"\\\"If at first you don't succeed, then\nskydiving definitely isn't for you.\\\"\n\n~Steven Wright\"",
+    "target": "\"\\\"Se não conseguir de primeira, então\nparaquedismo definitivamente não é para você.\\\"\n\n~Steven Wright\""
+  },
+  {
+    "source": "\"\\\"More important than the quest for\ncertainty is the quest for clarity.\\\"\n\n~Francois Gautier\"",
+    "target": "\"\\\"Mais importante que a busca pela\ncerteza é a busca pela clareza.\\\"\n\n~Francois Gautier\""
+  },
+  {
+    "source": "\"\\\"People with objectives succeed because\nthey know where they're going.\\\"\n\n~Earl Nightingale\"",
+    "target": "\"\\\"Pessoas com objetivos têm sucesso porque\nsabem aonde querem chegar.\\\"\n\n~Earl Nightingale\""
+  },
+  {
+    "source": "\"\\\"Reward the behavior you want repeated.\\\"\n\n~Larry Winget\"",
+    "target": "\"\\\"Recompense o comportamento que deseja ver repetido.\\\"\n\n~Larry Winget\""
+  },
+  {
+    "source": "\"\\\"We learn by example and by direct\nexperience because there are real limits\nto the adequacy of verbal instruction.\\\"\n\n~Malcolm Gladwell\"",
+    "target": "\"\\\"Aprendemos pelo exemplo e pela experiência\ndireta, pois existem limites reais para\na eficácia da instrução verbal.\\\"\n\n~Malcolm Gladwell\""
+  },
+  {
+    "source": "\"\\\"You miss 100% of the shots you\ndon't take.\\\"\n\n~Micahel Scott\"",
+    "target": "\"\\\"Você erra 100% dos arremessos que\nnão tenta.\\\"\n\n~Micahel Scott\""
+  },
+  {
+    "source": "\"\\c[2]DISCLAIMER:\\c[0]\nKeep in mind that \\c[4]VisuStella\\c[0] is NOT\nresponsible for your proficiency (or\notherwise) of \\c[4]JavaScript\\c[0].\n\nIf you get any errors with the custom\ncode, it is up to \\c[4]you\\c[0] to fix it.\n\nIf you do not understand how any of this\nsection works, do not be afraid. It's\nnot the end of the world.\n\nYou can still change the status of the\n\\c[4]quests\\c[0] and its \\c[4]objectives\\c[0] through the\nusage of \\c[4]Plugin Commands\\c[0].\"",
+    "target": "\"\\c[2]AVISO:\\c[0]\nLembre-se de que a \\c[4]VisuStella\\c[0] NÃO se\nresponsabiliza pelo seu domínio (ou falta\ndele) de \\c[4]JavaScript\\c[0].\n\nSe ocorrer algum erro no código\npersonalizado, cabe a \\c[4]você\\c[0] corrigi-lo.\n\nSe não entender como esta seção\nfunciona, não se preocupe. Não é\no fim do mundo.\n\nVocê ainda pode alterar o estado das\n\\c[4]missões\\c[0] e de seus \\c[4]objetivos\\c[0] usando\n\\c[4]Comandos do Plugin\\c[0].\""
+  },
+  {
+    "source": "\"\\c[4]Quest rewards\\c[0] are the goodies that are\npromised to be given to the player upon\nthe completion of the quest.\"",
+    "target": "\"As \\c[4]recompensas da missão\\c[0] são os prêmios\nprometidos ao jogador quando\na missão é concluída.\""
+  },
+  {
+    "source": "\"\\c[4]Quotes\\c[0] can be used to reference specific\nlines of dialogue that could help the\nplayer understand what's needed to be\ndone.\n\nOr they could just be \\c[4]quotes\\c[0] made by\njust about anyone.\n\nAnd like quest \\c[4]descriptions and quest\n\\c[4]subtexts\\c[0], the quest quotes can also be\nchanged to display something else based\non the quest's \\c[4]Quote ID\\c[0].\"",
+    "target": "\"\\c[4]Citações\\c[0] podem destacar falas específicas\nque ajudem o jogador a entender\no que precisa ser feito.\n\nOu podem ser apenas \\c[4]citações\\c[0] feitas por\npraticamente qualquer pessoa.\n\nAssim como \\c[4]descrições e subtextos\\c[0], as citações\nda missão podem exibir outro conteúdo\nconforme o \\c[4]ID da Citação\\c[0].\""
+  },
+  {
+    "source": "\"\\c[4]Subtexts\\c[0] can serve as hints, summaries,\nwarnings, reminders, you name it.\"",
+    "target": "\"\\c[4]Subtextos\\c[0] podem servir como dicas, resumos,\navisos, lembretes e muito mais.\""
+  },
+  {
+    "source": "\"\\c[6]Madame Figue\\c[0] is offering you \na job in the Pink Guild. Complete \nall the tasks she gives you.\"",
+    "target": "\"\\c[6]Madame Figue\\c[0] está oferecendo a você\num trabalho na Guilda Rosa. Conclua\ntodas as tarefas que ela passar.\""
+  },
+  {
+    "source": "\"\\c[6]Mr. Neighbour\\c[0] wants you to pay him \na visit later. He says he has something \nfor you...\"",
+    "target": "\"O \\c[6]Sr. Vizinho\\c[0] quer que você o visite\nmais tarde. Ele diz que tem algo\npara você...\""
+  },
+  {
+    "source": "\"\\c[6]Munga\\c[0] was able to escape from \nthe district yesterday... Find her \nand talk to her.\n\"",
+    "target": "\"\\c[6]Munga\\c[0] conseguiu fugir do distrito\nontem... Encontre-a e fale com ela.\n\""
+  },
+  {
+    "source": "\"\\c[6]Rokas\\c[0] suggests smuggling you into \nthe city as cargo; obey his rules.\"",
+    "target": "\"\\c[6]Rokas\\c[0] sugere contrabandear você para dentro\nda cidade como carga; obedeça às regras dele.\""
+  },
+  {
+    "source": "\"\\c[6]Strom\\c[0] invited you to spend the night \nwith him at the hotel. Will you be there?\"",
+    "target": "\"\\c[6]Strom\\c[0] convidou você para passar a noite\ncom ele no hotel. Você vai aparecer?\""
+  },
+  {
+    "source": "\"\\c[6]Strom\\c[0] is in the hotel right now\nand he's waiting for you, BUT the \nork bouncer won't let you in... \nFind a way!\n\"",
+    "target": "\"\\c[6]Strom\\c[0] está no hotel agora\ne espera por você, MAS o segurança ork\nnão deixa você entrar...\nEncontre um jeito!\n\""
+  },
+  {
+    "source": "\"\\c[6]Thorgrim\\c[0] is bitter...  there's \nnothing like a dwarf woman to fix that.\"",
+    "target": "\"\\c[6]Thorgrim\\c[0] está amargurado... nada como\numa mulher anã para resolver isso.\""
+  },
+  {
+    "source": "\"\\c[6]Villa Ñoco\\c[0] is on fire!!\"",
+    "target": "\"A \\c[6]Vila Ñoco\\c[0] está em chamas!!\""
+  },
+  {
+    "source": "\"\\i[79]Knowledge for \\c[6]JS: On Load\\c[0]:\n\\c[4]Plugin Parameter\\c[0].\"",
+    "target": "\"\\i[79]Conhecimento sobre \\c[6]JS: Ao Carregar\\c[0]:\n\\c[4]Parâmetro do Plugin\\c[0].\""
+  },
+  {
+    "source": "\"\\i[79]Mastery of \\c[4]Plugin Command\\c[0]:\n\\c[6]Quest: Description Change\\c[0]\"",
+    "target": "\"\\i[79]Domínio do \\c[4]Comando do Plugin\\c[0]:\n\\c[6]Missão: Alterar Descrição\\c[0]\""
+  },
+  {
+    "source": "\"\\i[79]Mastery of \\c[4]Plugin Command\\c[0]:\n\\c[6]Quest: Objectives Change\\c[0]\"",
+    "target": "\"\\i[79]Domínio do \\c[4]Comando do Plugin\\c[0]:\n\\c[6]Missão: Alterar Objetivos\\c[0]\""
+  },
+  {
+    "source": "\"\\i[79]Mastery of \\c[4]Plugin Command\\c[0]:\n\\c[6]Quest: Rewards Change\\c[0]\"",
+    "target": "\"\\i[79]Domínio do \\c[4]Comando do Plugin\\c[0]:\n\\c[6]Missão: Alterar Recompensas\\c[0]\""
+  },
+  {
+    "source": "\"\\i[79]Mastery of \\c[4]Plugin Command\\c[0]:\n\\c[6]Quest: Subtext Change\\c[0]\"",
+    "target": "\"\\i[79]Domínio do \\c[4]Comando do Plugin\\c[0]:\n\\c[6]Missão: Alterar Subtexto\\c[0]\""
+  },
+  {
+    "source": "\"\\i[79]Mastery of \\c[4]Plugin Parameter\\c[0]:\n\\c[6]Description\\c[0].\"",
+    "target": "\"\\i[79]Domínio do \\c[4]Parâmetro do Plugin\\c[0]:\n\\c[6]Descrição\\c[0].\""
+  },
+  {
+    "source": "\"\\i[79]Mastery of \\c[4]Plugin Parameter\\c[0]:\n\\c[6]Difficulty\\c[0].\"",
+    "target": "\"\\i[79]Domínio do \\c[4]Parâmetro do Plugin\\c[0]:\n\\c[6]Dificuldade\\c[0].\""
+  },
+  {
+    "source": "\"\\i[79]Mastery of \\c[4]Plugin Parameter\\c[0]:\n\\c[6]From\\c[0].\"",
+    "target": "\"\\i[79]Domínio do \\c[4]Parâmetro do Plugin\\c[0]:\n\\c[6]Origem\\c[0].\""
+  },
+  {
+    "source": "\"\\i[79]Mastery of \\c[4]Plugin Parameter\\c[0]:\n\\c[6]Objectives\\c[0].\"",
+    "target": "\"\\i[79]Domínio do \\c[4]Parâmetro do Plugin\\c[0]:\n\\c[6]Objetivos\\c[0].\""
+  },
+  {
+    "source": "\"\\i[79]Mastery of \\c[4]Plugin Parameter\\c[0]:\n\\c[6]Rewards\\c[0].\"",
+    "target": "\"\\i[79]Domínio do \\c[4]Parâmetro do Plugin\\c[0]:\n\\c[6]Recompensas\\c[0].\""
+  },
+  {
+    "source": "\"\\i[79]Mastery of \\c[4]Plugin Parameter\\c[0]:\n\\c[6]Subtext\\c[0].\"",
+    "target": "\"\\i[79]Domínio do \\c[4]Parâmetro do Plugin\\c[0]:\n\\c[6]Subtexto\\c[0].\""
+  },
+  {
+    "source": "\"3 gold coins.\"",
+    "target": "\"3 moedas de ouro.\""
+  },
+  {
+    "source": "\"3 Gold Coins.\"",
+    "target": "\"3 Moedas de Ouro.\""
+  },
+  {
+    "source": "\"5 Gold Coins.\"",
+    "target": "\"5 Moedas de Ouro.\""
+  },
+  {
+    "source": "\"A \\c[6]female guard\\c[0] seems to be \nenchanted by you. Take advantage \nof that to achieve your goal.\n\"",
+    "target": "\"Uma \\c[6]guarda\\c[0] parece encantada por você.\nAproveite isso para alcançar\nseu objetivo.\n\""
+  },
+  {
+    "source": "\"A better place to stay.\"",
+    "target": "\"Um lugar melhor para morar.\""
+  },
+  {
+    "source": "\"A dark elf will help you, look for his\nwife.\"",
+    "target": "\"Um elfo sombrio ajudará você; procure\na esposa dele.\""
+  },
+  {
+    "source": "\"A good time with Dom.\"",
+    "target": "\"Um momento agradável com Dom.\""
+  },
+  {
+    "source": "\"A horse-man has reported that a HUGE RABBIT has broken into his home. \nWe should investigate and find a way to resolve the situation...\"",
+    "target": "\"Um homem-cavalo informou que um COELHO ENORME invadiu sua casa.\nDevemos investigar e encontrar uma forma de resolver a situação...\""
+  },
+  {
+    "source": "\"A lot of money.\"",
+    "target": "\"Muito dinheiro.\""
+  },
+  {
+    "source": "\"A mysterious gypsy insists that you seek \nher services...\n\"",
+    "target": "\"Uma cigana misteriosa insiste que você procure\nos serviços dela...\n\""
+  },
+  {
+    "source": "\"A mysterious young man offers to help you \ncross the bridge... He says he knows things.\n\"",
+    "target": "\"Um jovem misterioso se oferece para ajudar você\na atravessar a ponte... Ele diz que sabe de coisas.\n\""
+  },
+  {
+    "source": "\"A new day dawns with the guards... Let's see what's in store \nfor me today!\"",
+    "target": "\"Um novo dia amanhece com os guardas... Vamos ver o que\nme espera hoje!\""
+  },
+  {
+    "source": "\"A pleasant night.\"",
+    "target": "\"Uma noite agradável.\""
+  },
+  {
+    "source": "\"A quest's \\c[4]difficulty\\c[0] can be used to\nconvey what kinds of expectations they\nshould have regarding challenge.\n\nThese can range from star ratings like:\n\\i[87]\\i[87]\\i[88]\\i[88]\\i[88]\n\nto\n\nLevel ranges like:\n\\c[24]Level 20+\\c[0]\"",
+    "target": "\"A \\c[4]dificuldade\\c[0] de uma missão pode indicar\nque tipo de desafio o jogador\ndeve esperar.\n\nEla pode usar avaliações por estrelas, como:\n\\i[87]\\i[87]\\i[88]\\i[88]\\i[88]\n\nou\n\nfaixas de nível, como:\n\\c[24]Nível 20+\\c[0]\""
+  },
+  {
+    "source": "\"A quest's difficulty is often used to\nrelay the expected level of conflict a\nplayer may face.\"",
+    "target": "\"A dificuldade de uma missão costuma indicar\no nível de conflito que o\njogador poderá enfrentar.\""
+  },
+  {
+    "source": "\"Accept his offer (when you are free).\"",
+    "target": "\"Aceite a oferta dele (quando estiver livre).\""
+  },
+  {
+    "source": "\"Accept the MERCENARY's job.\"",
+    "target": "\"Aceite o trabalho do MERCENÁRIO.\""
+  },
+  {
+    "source": "\"Access to Alex Botin.\"",
+    "target": "\"Acesso a Alex Botin.\""
+  },
+  {
+    "source": "\"Access to the city.\"",
+    "target": "\"Acesso à cidade.\""
+  },
+  {
+    "source": "\"Access to the hotel.\"",
+    "target": "\"Acesso ao hotel.\""
+  },
+  {
+    "source": "\"After all, reminding a player to do\nsomething only means you want them to\nsucceed at it.\"",
+    "target": "\"Afinal, lembrar o jogador de fazer algo\nsó significa que você quer que ele\nconsiga cumprir a tarefa.\""
+  },
+  {
+    "source": "\"All clues lead to the Red-Light District...\nGo there and look for Jenny!\n\n\n\n\n\n\n\"",
+    "target": "\"Todas as pistas levam ao Distrito da Luz Vermelha...\nVá até lá e procure Jenny!\n\n\n\n\n\n\n\""
+  },
+  {
+    "source": "\"All roads lead to the inner Royal District of St. Polla.\nYou must obtain the Royal District Pass at the Registry.\n\n\"",
+    "target": "\"Todos os caminhos levam ao interior do Distrito Real de St. Polla.\nVocê precisa obter o Passe do Distrito Real no Cartório.\n\n\""
+  },
+  {
+    "source": "\"An exiled guard claims to have lost \nthe key to a rather intriguing cabin...\n\n\"",
+    "target": "\"Um guarda exilado diz ter perdido\na chave de uma cabana muito intrigante...\n\n\""
+  },
+  {
+    "source": "\"Ask for Jenny!\"",
+    "target": "\"Pergunte por Jenny!\""
+  },
+  {
+    "source": "\"Ask for Petar Orthos in the Blue Brothel.\"",
+    "target": "\"Pergunte por Petar Orthos no Bordel Azul.\""
+  },
+  {
+    "source": "\"Ask for Petar Orthos in the Gray Brothel.\"",
+    "target": "\"Pergunte por Petar Orthos no Bordel Cinza.\""
+  },
+  {
+    "source": "\"Ask the Warchief about his plans for the Cool-O Fest, \nthen return to Fokka.\"",
+    "target": "\"Pergunte ao Chefe de Guerra sobre os planos para o Cool-O Fest\ne depois volte até Fokka.\""
+  },
+  {
+    "source": "\"Attend Jesters' Guild Show.\"",
+    "target": "\"Assista ao espetáculo da Guilda dos Bufões.\""
+  },
+  {
+    "source": "\"Attend to the Mass\"",
+    "target": "\"Assista à missa\""
+  },
+  {
+    "source": "\"Bring people to the BBC.\"",
+    "target": "\"Leve pessoas para a BBC.\""
+  },
+  {
+    "source": "\"Bring the rabbit to the castle.\"",
+    "target": "\"Leve o coelho ao castelo.\""
+  },
+  {
+    "source": "\"Buy a beer for Dick.\"",
+    "target": "\"Compre uma cerveja para Dick.\""
+  },
+  {
+    "source": "\"Buy yourself something nice.\"",
+    "target": "\"Compre algo bonito para você.\""
+  },
+  {
+    "source": "\"Captain Jak gave you the chance to\ntake a second combat...\"",
+    "target": "\"O Capitão Jak deu a você a chance de\nparticipar de um segundo combate...\""
+  },
+  {
+    "source": "\"Captain Melo told me to visit him in his quarters tonight. He asked me if tonight would be THE night...\"",
+    "target": "\"O Capitão Melo pediu que eu o visite em seus aposentos esta noite. Ele perguntou se hoje seria A noite...\""
+  },
+  {
+    "source": "\"Capture the Gnome.\"",
+    "target": "\"Capture o gnomo.\""
+  },
+  {
+    "source": "\"Change Switch 1's ON/OFF status.\"",
+    "target": "\"Altere o estado LIGADO/DESLIGADO do Interruptor 1.\""
+  },
+  {
+    "source": "\"Change the \\\"from\\\" text through the\nquest's \\c[6]From\\c[0] \\c[4]Plugin Parameter\\c[0].\"",
+    "target": "\"Altere o texto de \\\"origem\\\" pelo\n\\c[4]Parâmetro do Plugin\\c[0] \\c[6]Origem\\c[0]\nda missão.\""
+  },
+  {
+    "source": "\"Change the difficulty through the\nquest's \\c[6]Difficulty\\c[0] \\c[4]Plugin Parameter\\c[0].\"",
+    "target": "\"Altere a dificuldade pelo\n\\c[4]Parâmetro do Plugin\\c[0] \\c[6]Dificuldade\\c[0]\nda missão.\""
+  },
+  {
+    "source": "\"Claimed Reward\"",
+    "target": "\"Recompensa Recebida\""
+  },
+  {
+    "source": "\"Clara the hyena asked me to look for her lost comb.\nHer friend Lulu might know something about it.\"",
+    "target": "\"Clara, a hiena, pediu que eu procure seu pente perdido.\nA amiga dela, Lulu, talvez saiba de alguma coisa.\""
+  },
+  {
+    "source": "\"Clean the bar.\"",
+    "target": "\"Limpe o bar.\""
+  },
+  {
+    "source": "\"Clean yourself up.\"",
+    "target": "\"Vá se limpar.\""
+  },
+  {
+    "source": "\"Collect coins at the Abbey and the Beach.\"",
+    "target": "\"Colete moedas na Abadia e na Praia.\""
+  },
+  {
+    "source": "\"Collect your commission!\"",
+    "target": "\"Receba sua comissão!\""
+  },
+  {
+    "source": "\"Come back another day.\"",
+    "target": "\"Volte outro dia.\""
+  },
+  {
+    "source": "\"Come back to Thorgrim.\"",
+    "target": "\"Volte até Thorgrim.\""
+  },
+  {
+    "source": "\"Complete the quest with Melo.\"",
+    "target": "\"Conclua a missão com Melo.\""
+  },
+  {
+    "source": "\"Completed Objective\"",
+    "target": "\"Objetivo Concluído\""
+  },
+  {
+    "source": "\"Cross the bridge.\"",
+    "target": "\"Atravesse a ponte.\""
+  },
+  {
+    "source": "\"Deliver the meat to the Inn.\"",
+    "target": "\"Entregue a carne na Estalagem.\""
+  },
+  {
+    "source": "\"Deliver the supplies to the \nexploration teams.\"",
+    "target": "\"Entregue os suprimentos às\nequipes de exploração.\""
+  },
+  {
+    "source": "\"Denied Reward\"",
+    "target": "\"Recompensa Negada\""
+  },
+  {
+    "source": "\"Descriptions are valuable tools that can\nbe used to help remind the player the\npurpose of the quest.\"",
+    "target": "\"Descrições são recursos valiosos para\nlembrar ao jogador qual é o\npropósito da missão.\""
+  },
+  {
+    "source": "\"Dick wants me to do... things. Better NOT say no!\"",
+    "target": "\"Dick quer que eu faça... coisas. Melhor NÃO dizer não!\""
+  },
+  {
+    "source": "\"Do you want to enjoy a confy room and\navoid \\c[6]Chad\\c[0] and his three wrestler \ncousins' wrath? Get 20 gold coins.\"",
+    "target": "\"Quer desfrutar de um quarto confortável e\nevitar a ira de \\c[6]Chad\\c[0] e seus três primos\nlutadores? Consiga 20 moedas de ouro.\""
+  },
+  {
+    "source": "\"Domenico the bard needs you to talk \nto the king... Are you going to do it?\n\n\n\"",
+    "target": "\"O bardo Domenico precisa que você fale\ncom o rei... Você vai fazer isso?\n\n\n\""
+  },
+  {
+    "source": "\"Eat a SHAMANIC MUSHROOM!\"",
+    "target": "\"Coma um COGUMELO XAMÂNICO!\""
+  },
+  {
+    "source": "\"Enjoy your free time.\"",
+    "target": "\"Aproveite seu tempo livre.\""
+  },
+  {
+    "source": "\"Enter Fokka’s yurt.\"",
+    "target": "\"Entre na tenda de Fokka.\""
+  },
+  {
+    "source": "\"Escape from the district!\"",
+    "target": "\"Fuja do distrito!\""
+  },
+  {
+    "source": "\"Escape from the factory.\"",
+    "target": "\"Fuja da fábrica.\""
+  },
+  {
+    "source": "\"Explaining which \\c[4]NPC\\c[0] the quest is from\ncan help remind the player its origin\nand also help save the player some time\nin trying to find that \\c[4]NPC\\c[0] again when\ngoing to claim the quest \\c[4]rewards\\c[0].\"",
+    "target": "\"Indicar de qual \\c[4]NPC\\c[0] veio a missão\najuda o jogador a lembrar sua origem\ne também economiza tempo ao procurar\nesse \\c[4]NPC\\c[0] novamente para receber as\n\\c[4]recompensas\\c[0] da missão.\""
+  },
+  {
+    "source": "\"Explore and seek information.\"",
+    "target": "\"Explore e procure informações.\""
+  },
+  {
+    "source": "\"Explore the district with Alex.\"",
+    "target": "\"Explore o distrito com Alex.\""
+  },
+  {
+    "source": "\"Explore the house with Leo.\"",
+    "target": "\"Explore a casa com Leo.\""
+  },
+  {
+    "source": "\"Explore the mansion.\"",
+    "target": "\"Explore a mansão.\""
+  },
+  {
+    "source": "\"Failed Objective\"",
+    "target": "\"Objetivo Fracassado\""
+  },
+  {
+    "source": "\"Fetch the meat.\"",
+    "target": "\"Busque a carne.\""
+  },
+  {
+    "source": "\"Fetch the river plant.\"",
+    "target": "\"Busque a planta do rio.\""
+  },
+  {
+    "source": "\"Find a place to spend the night.\"",
+    "target": "\"Encontre um lugar para passar a noite.\""
+  },
+  {
+    "source": "\"Find a proper woman for Thorgrim.\"",
+    "target": "\"Encontre uma mulher adequada para Thorgrim.\""
+  },
+  {
+    "source": "\"Find a way in.\"",
+    "target": "\"Encontre uma forma de entrar.\""
+  },
+  {
+    "source": "\"Find a way into \\c[6]St. Polla\\c[0], be it legal \nor not so much...\"",
+    "target": "\"Encontre uma forma de entrar em \\c[6]St. Polla\\c[0], seja ela legal\nou nem tanto...\""
+  },
+  {
+    "source": "\"Find a way into the factory.\"",
+    "target": "\"Encontre uma forma de entrar na fábrica.\""
+  },
+  {
+    "source": "\"Find a way to get rid of Thorgrim, \nAlex's secretary.\"",
+    "target": "\"Encontre uma forma de se livrar de Thorgrim,\no secretário de Alex.\""
+  },
+  {
+    "source": "\"Find a way to talk to the king.\"",
+    "target": "\"Encontre uma forma de falar com o rei.\""
+  },
+  {
+    "source": "\"Find Anya in the canteen.\"",
+    "target": "\"Encontre Anya na cantina.\""
+  },
+  {
+    "source": "\"Find Chad, the orange-pompadour Ork.\"",
+    "target": "\"Encontre Chad, o ork com topete laranja.\""
+  },
+  {
+    "source": "\"Find Chad.\"",
+    "target": "\"Encontre Chad.\""
+  },
+  {
+    "source": "\"Find Connie’s 4 lost bunnies.\"",
+    "target": "\"Encontre as 4 coelhinhas perdidas de Connie.\""
+  },
+  {
+    "source": "\"Find Dick.\"",
+    "target": "\"Encontre Dick.\""
+  },
+  {
+    "source": "\"Find Fokka's money in the Palisade.\"",
+    "target": "\"Encontre o dinheiro de Fokka na Paliçada.\""
+  },
+  {
+    "source": "\"Find help to talk to Lil Pimp.\"",
+    "target": "\"Encontre ajuda para falar com Lil Pimp.\""
+  },
+  {
+    "source": "\"Find his partner and get\nsome info.\n\"",
+    "target": "\"Encontre o parceiro dele e consiga\nalgumas informações.\n\""
+  },
+  {
+    "source": "\"Find Lazlo.\"",
+    "target": "\"Encontre Lazlo.\""
+  },
+  {
+    "source": "\"Find Mr. Portobello.\"",
+    "target": "\"Encontre o Sr. Portobello.\""
+  },
+  {
+    "source": "\"Find Mr. Portobello's bureaucrat bastard.\"",
+    "target": "\"Encontre o burocrata desgraçado do Sr. Portobello.\""
+  },
+  {
+    "source": "\"Find Phil and Mort.\"",
+    "target": "\"Encontre Phil e Mort.\""
+  },
+  {
+    "source": "\"Find Rokas and Strom.\"",
+    "target": "\"Encontre Rokas e Strom.\""
+  },
+  {
+    "source": "\"Find Rokas.\"",
+    "target": "\"Encontre Rokas.\""
+  },
+  {
+    "source": "\"Find some Ork Ale.\"",
+    "target": "\"Encontre um pouco de Cerveja Ork.\""
+  },
+  {
+    "source": "\"Find someone to invite you in.\n\"",
+    "target": "\"Encontre alguém que convide você para entrar.\n\""
+  },
+  {
+    "source": "\"Find Strom and Rokas.\"",
+    "target": "\"Encontre Strom e Rokas.\""
+  },
+  {
+    "source": "\"Find Strom.\"",
+    "target": "\"Encontre Strom.\""
+  },
+  {
+    "source": "\"Find the big rabbit bothering Diego.\"",
+    "target": "\"Encontre o coelho grande que está incomodando Diego.\""
+  },
+  {
+    "source": "\"Find the Gobblas inside the factory.\"",
+    "target": "\"Encontre as Gobblas dentro da fábrica.\""
+  },
+  {
+    "source": "\"Find the Gobblas.\"",
+    "target": "\"Encontre as Gobblas.\""
+  },
+  {
+    "source": "\"Find the key.\"",
+    "target": "\"Encontre a chave.\""
+  },
+  {
+    "source": "\"Find the little bag.\"",
+    "target": "\"Encontre a pequena bolsa.\""
+  },
+  {
+    "source": "\"Find the pink comb.\"",
+    "target": "\"Encontre o pente rosa.\""
+  },
+  {
+    "source": "\"Find the prisoner.\"",
+    "target": "\"Encontre a prisioneira.\""
+  },
+  {
+    "source": "\"Find the SEXY OUTFIT.\"",
+    "target": "\"Encontre o TRAJE SEXY.\""
+  },
+  {
+    "source": "\"Frankie is going to investigate on his own...\nhe wants us to share the info we find \nat home at sunset.\n\"",
+    "target": "\"Frankie vai investigar por conta própria...\nele quer que compartilhemos as informações\nem casa, ao pôr do sol.\n\""
+  },
+  {
+    "source": "\"Gather all Rokas' Slaves,\nthen meet with the team.\"",
+    "target": "\"Reúna todas as escravas de Rokas\ne depois encontre a equipe.\""
+  },
+  {
+    "source": "\"Get 1 Spider Crab.\"",
+    "target": "\"Consiga 1 Caranguejo-Aranha.\""
+  },
+  {
+    "source": "\"Get changed (or don't!).\"",
+    "target": "\"Troque de roupa (ou não!).\""
+  },
+  {
+    "source": "\"Get changed at the Inn.\"",
+    "target": "\"Troque de roupa na Estalagem.\""
+  },
+  {
+    "source": "\"Get changed before the date!\"",
+    "target": "\"Troque de roupa antes do encontro!\""
+  },
+  {
+    "source": "\"Get dressed!\"",
+    "target": "\"Vista-se!\""
+  },
+  {
+    "source": "\"Get in the RED HOUSE.\"",
+    "target": "\"Entre na CASA VERMELHA.\""
+  },
+  {
+    "source": "\"Get into the church and speak with \nBlue Bishop.\"",
+    "target": "\"Entre na igreja e fale com o\nBispo Azul.\""
+  },
+  {
+    "source": "\"Get Mr. Portobello's Vault.\"",
+    "target": "\"Pegue o cofre do Sr. Portobello.\""
+  },
+  {
+    "source": "\"Get out of the Astral world.\"",
+    "target": "\"Saia do mundo Astral.\""
+  },
+  {
+    "source": "\"Get out of the city.\"",
+    "target": "\"Saia da cidade.\""
+  },
+  {
+    "source": "\"Get painted by Larry Capija.\"",
+    "target": "\"Seja pintada por Larry Capija.\""
+  },
+  {
+    "source": "\"Get some herbs from the Chemists' Guild.\"",
+    "target": "\"Pegue ervas na Guilda dos Químicos.\""
+  },
+  {
+    "source": "\"Get some money in the Ork District.\"",
+    "target": "\"Consiga dinheiro no Distrito dos Orks.\""
+  },
+  {
+    "source": "\"Get some sleep.\"",
+    "target": "\"Durma um pouco.\""
+  },
+  {
+    "source": "\"Get the Cryptoporticus Maps.\"",
+    "target": "\"Pegue os mapas do Criptoporticus.\""
+  },
+  {
+    "source": "\"Get the LAUNDRY from all neighbours.\"",
+    "target": "\"Recolha a ROUPA SUJA de todos os vizinhos.\""
+  },
+  {
+    "source": "\"Get three customers for the Guild.\"",
+    "target": "\"Consiga três clientes para a Guilda.\""
+  },
+  {
+    "source": "\"Get to the capital.\"",
+    "target": "\"Chegue à capital.\""
+  },
+  {
+    "source": "\"Get your work permit.\"",
+    "target": "\"Pegue sua autorização de trabalho.\""
+  },
+  {
+    "source": "\"Give the Lute to someone who can play it!\"",
+    "target": "\"Entregue o alaúde a alguém que saiba tocá-lo!\""
+  },
+  {
+    "source": "\"Give the money to Pepa... (Or return the box!)\"",
+    "target": "\"Entregue o dinheiro a Pepa... (Ou devolva a caixa!)\""
+  },
+  {
+    "source": "\"Give the money to Pepa.\"",
+    "target": "\"Entregue o dinheiro a Pepa.\""
+  },
+  {
+    "source": "\"Go and relax by the river.\"",
+    "target": "\"Vá relaxar à beira do rio.\""
+  },
+  {
+    "source": "\"Go back home.\"",
+    "target": "\"Volte para casa.\""
+  },
+  {
+    "source": "\"Go back to Kylia.\"",
+    "target": "\"Volte até Kylia.\""
+  },
+  {
+    "source": "\"Go back to Laz.\"",
+    "target": "\"Volte até Laz.\""
+  },
+  {
+    "source": "\"Go back to Madame Figue.\"",
+    "target": "\"Volte até Madame Figue.\""
+  },
+  {
+    "source": "\"Go back to Munga.\"",
+    "target": "\"Volte até Munga.\""
+  },
+  {
+    "source": "\"Go back to Rokas.\"",
+    "target": "\"Volte até Rokas.\""
+  },
+  {
+    "source": "\"Go back to the dark elf.\"",
+    "target": "\"Volte até o elfo sombrio.\""
+  },
+  {
+    "source": "\"Go back to the Factory.\"",
+    "target": "\"Volte à fábrica.\""
+  },
+  {
+    "source": "\"Go back to the Front Desk Guy.\"",
+    "target": "\"Volte até o atendente da recepção.\""
+  },
+  {
+    "source": "\"Go back to the Inn.\"",
+    "target": "\"Volte para a Estalagem.\""
+  },
+  {
+    "source": "\"Go back to the Mercenary.\"",
+    "target": "\"Volte até o Mercenário.\""
+  },
+  {
+    "source": "\"Go back to the Red Brothel.\"",
+    "target": "\"Volte ao Bordel Vermelho.\""
+  },
+  {
+    "source": "\"Go back to the RED HOUSE.\"",
+    "target": "\"Volte à CASA VERMELHA.\""
+  },
+  {
+    "source": "\"Go back to the Red Light District.\"",
+    "target": "\"Volte ao Distrito da Luz Vermelha.\""
+  },
+  {
+    "source": "\"Go back to Villa Ñoco with Strom\"",
+    "target": "\"Volte à Vila Ñoco com Strom.\""
+  },
+  {
+    "source": "\"Go home and meet Frank.\"",
+    "target": "\"Vá para casa e encontre Frank.\""
+  },
+  {
+    "source": "\"Go home and take off your clothes.\"",
+    "target": "\"Vá para casa e tire a roupa.\""
+  },
+  {
+    "source": "\"Go meet your mates in your room.\"",
+    "target": "\"Encontre suas companheiras no quarto.\""
+  },
+  {
+    "source": "\"Go north and escape from \nthe RED CLOAKS!\"",
+    "target": "\"Vá para o norte e fuja dos\nMANTOS VERMELHOS!\""
+  },
+  {
+    "source": "\"Go south, to Lazlo's ranch.\"",
+    "target": "\"Vá para o sul, até o rancho de Lazlo.\""
+  },
+  {
+    "source": "\"Go to a private place.\"",
+    "target": "\"Vá para um lugar reservado.\""
+  },
+  {
+    "source": "\"Go to Alex Botin's mansion.\"",
+    "target": "\"Vá à mansão de Alex Botin.\""
+  },
+  {
+    "source": "\"Go to Alex's mansion.\"",
+    "target": "\"Vá à mansão de Alex.\""
+  },
+  {
+    "source": "\"Go to Bungalow #2 and speak with Petar.\"",
+    "target": "\"Vá ao Bangalô nº 2 e fale com Petar.\""
+  },
+  {
+    "source": "\"Go to goblins' camp.\"",
+    "target": "\"Vá ao acampamento dos goblins.\""
+  },
+  {
+    "source": "\"Go to Kylia.\"",
+    "target": "\"Vá até Kylia.\""
+  },
+  {
+    "source": "\"Go to Laz' place.\"",
+    "target": "\"Vá à casa de Laz.\""
+  },
+  {
+    "source": "\"Go to Lil Pimp's office.\"",
+    "target": "\"Vá ao escritório de Lil Pimp.\""
+  },
+  {
+    "source": "\"Go to sleep in the caravan.\"",
+    "target": "\"Vá dormir na caravana.\""
+  },
+  {
+    "source": "\"Go to sleep.\"",
+    "target": "\"Vá dormir.\""
+  },
+  {
+    "source": "\"Go to Strom's hotel room.\"",
+    "target": "\"Vá ao quarto de Strom no hotel.\""
+  },
+  {
+    "source": "\"Go to the Abbey and find Domenico.\"",
+    "target": "\"Vá à Abadia e encontre Domenico.\""
+  },
+  {
+    "source": "\"Go to the Abbey square.\"",
+    "target": "\"Vá até a praça da Abadia.\""
+  },
+  {
+    "source": "\"Go to the bank and talk to Mr. Botin.\"",
+    "target": "\"Vá ao banco e fale com o Sr. Botin.\""
+  },
+  {
+    "source": "\"Go to the Bank.\"",
+    "target": "\"Vá ao Banco.\""
+  },
+  {
+    "source": "\"Go to the BBC and talk to Big Bob.\"",
+    "target": "\"Vá à BBC e fale com Grandão Bob.\""
+  },
+  {
+    "source": "\"Go to the blacksmith and get your\narmor.\"",
+    "target": "\"Vá até o ferreiro e pegue sua\narmadura.\""
+  },
+  {
+    "source": "\"Go to the cantine.\"",
+    "target": "\"Vá até a cantina.\""
+  },
+  {
+    "source": "\"Go to the castle.\"",
+    "target": "\"Vá até o castelo.\""
+  },
+  {
+    "source": "\"Go to the cellar and pick some wine.\"",
+    "target": "\"Vá até a adega e pegue um pouco de vinho.\""
+  },
+  {
+    "source": "\"Go to the cemetery.\"",
+    "target": "\"Vá até o cemitério.\""
+  },
+  {
+    "source": "\"Go to the church and find JENNY.\"",
+    "target": "\"Vá até a igreja e encontre JENNY.\""
+  },
+  {
+    "source": "\"Go to the hotel and meet Strom in his room\"",
+    "target": "\"Vá ao hotel e encontre Strom no quarto dele\""
+  },
+  {
+    "source": "\"Go to the Inn and look for JENNY.\"",
+    "target": "\"Vá até a Estalagem e procure JENNY.\""
+  },
+  {
+    "source": "\"Go to the Inn.\"",
+    "target": "\"Vá até a Estalagem.\""
+  },
+  {
+    "source": "\"Go to the kitchen and take the\nsupplies.\"",
+    "target": "\"Vá até a cozinha e pegue os\nsuprimentos.\""
+  },
+  {
+    "source": "\"Go to the museum workshop.\"",
+    "target": "\"Vá à oficina do museu.\""
+  },
+  {
+    "source": "\"Go to the Ork District with Dolores.\"",
+    "target": "\"Vá ao Distrito dos Orks com Dolores.\""
+  },
+  {
+    "source": "\"Go to the Red Light District.\"",
+    "target": "\"Vá ao Distrito da Luz Vermelha.\""
+  },
+  {
+    "source": "\"Go to the Registry.\"",
+    "target": "\"Vá ao Cartório.\""
+  },
+  {
+    "source": "\"Go to the river.\"",
+    "target": "\"Vá até o rio.\""
+  },
+  {
+    "source": "\"Go to the room 410.\"",
+    "target": "\"Vá até o quarto 410.\""
+  },
+  {
+    "source": "\"Go to the showers.\"",
+    "target": "\"Vá até os chuveiros.\""
+  },
+  {
+    "source": "\"Go to the stage area at the beach.\"",
+    "target": "\"Vá até a área do palco na praia.\""
+  },
+  {
+    "source": "\"Go to the Tailork's yurt.\"",
+    "target": "\"Vá à tenda do Tailork.\""
+  },
+  {
+    "source": "\"Go to the Tailors' Guild.\"",
+    "target": "\"Vá à Guilda dos Alfaiates.\""
+  },
+  {
+    "source": "\"Go to the tavern and find the ork.\"",
+    "target": "\"Vá à taverna e encontre o ork.\""
+  },
+  {
+    "source": "\"Go to the Taylors' Guild and speak with\nthe clerk.\"",
+    "target": "\"Vá à Guilda dos Alfaiates e fale com\no atendente.\""
+  },
+  {
+    "source": "\"Go to the Vintners' Guild.\"",
+    "target": "\"Vá à Guilda dos Vinicultores.\""
+  },
+  {
+    "source": "\"Go to the yard and meet the captain.\"",
+    "target": "\"Vá ao pátio e encontre a capitã.\""
+  },
+  {
+    "source": "\"Go to your combat instruction.\"",
+    "target": "\"Vá para sua instrução de combate.\""
+  },
+  {
+    "source": "\"Go to your interview.\"",
+    "target": "\"Vá para sua entrevista.\""
+  },
+  {
+    "source": "\"Go with Melo to Big Bob's Cantine.\"",
+    "target": "\"Vá com Melo à Cantina do Grandão Bob.\""
+  },
+  {
+    "source": "\"Go with the boy to the fancy part.\"",
+    "target": "\"Vá com o garoto até a área nobre.\""
+  },
+  {
+    "source": "\"Hailey says you can walk into the \nRed Light District in the nude. \nShould we give it a try?\"",
+    "target": "\"Hailey diz que você pode entrar no\nDistrito da Luz Vermelha nua.\nQue tal tentar?\""
+  },
+  {
+    "source": "\"Have a good time.\"",
+    "target": "\"Divirta-se.\""
+  },
+  {
+    "source": "\"Head to the beach.\"",
+    "target": "\"Vá para a praia.\""
+  },
+  {
+    "source": "\"Head to the Locker Room.\"",
+    "target": "\"Vá ao vestiário.\""
+  },
+  {
+    "source": "\"Head to the tower.\"",
+    "target": "\"Vá até a torre.\""
+  },
+  {
+    "source": "\"Head to the Training Yard.\"",
+    "target": "\"Vá ao pátio de treinamento.\""
+  },
+  {
+    "source": "\"Help Rebecca.\"",
+    "target": "\"Ajude Rebecca.\""
+  },
+  {
+    "source": "\"Help the \\c[6]Landlady\\c[0] and she'll help you \nget in the city..\"",
+    "target": "\"Ajude a \\c[6]Dona da Taverna\\c[0], e ela ajudará você\na entrar na cidade.\""
+  },
+  {
+    "source": "\"Help the \\c[6]Mercenary\\c[0] of the tavern \nand he'll help you get in the city.\n\n\"",
+    "target": "\"Ajude o \\c[6]Mercenário\\c[0] da taverna,\ne ele ajudará você a entrar na cidade.\n\n\""
+  },
+  {
+    "source": "\"Here, you can list all the rewards the\ngame will give the player upon the\ncompletion of the quest.\"",
+    "target": "\"Aqui você pode listar todas as recompensas que\no jogo dará ao jogador quando a\nmissão for concluída.\""
+  },
+  {
+    "source": "\"Horse Woman Suit\"",
+    "target": "\"Traje de Mulher-Cavalo\""
+  },
+  {
+    "source": "\"How you want to use them is up to you.\"",
+    "target": "\"Você decide como quer usá-las.\""
+  },
+  {
+    "source": "\"I need to speak with Petar to get more info \nabout Jenny.\n\n\"",
+    "target": "\"Preciso falar com Petar para conseguir mais informações\nsobre Jenny.\n\n\""
+  },
+  {
+    "source": "\"I've been offered a job at the \\c[6]BBC\\c[0],\nthe bar next to my house in \nPatricians' Park.\"",
+    "target": "\"Recebi uma oferta de trabalho na \\c[6]BBC\\c[0],\no bar ao lado da minha casa no\nParque dos Patrícios.\""
+  },
+  {
+    "source": "\"If you do, make sure you have the\n\\c[4]Visible Rewards\\c[0] list the ID's of the\nrewards you want visible from the\nvery beginning.\"",
+    "target": "\"Nesse caso, faça a lista de\n\\c[4]Recompensas Visíveis\\c[0] conter os IDs das\nrecompensas que devem aparecer\ndesde o início.\""
+  },
+  {
+    "source": "\"Insert the quest's \\c[4]Description\\c[0] here.\nThe displayed \\c[4]quest description\\c[0] will\ndepend on the \\c[4]Description ID\\c[0] that is\ncurrently active for the quest.\"",
+    "target": "\"Insira aqui a \\c[4]Descrição\\c[0] da missão.\nA \\c[4]descrição da missão\\c[0] exibida dependerá\ndo \\c[4]ID da Descrição\\c[0] que estiver\nativo no momento.\""
+  },
+  {
+    "source": "\"It seems a maximum-security prisoner \nknows things about the cult...\n\n\"",
+    "target": "\"Parece que uma prisioneira de segurança máxima\nsabe coisas sobre o culto...\n\n\""
+  },
+  {
+    "source": "\"It seems that Frank Dubois's offer is serious; \nhe says there is a spare room in his house...\n\n\n\"",
+    "target": "\"Parece que a oferta de Frank Dubois é séria;\nele diz que há um quarto sobrando na casa dele...\n\n\n\""
+  },
+  {
+    "source": "\"It's a busy day and \\c[6]Dad\\c[0] needs your\nhelp!\"",
+    "target": "\"É um dia agitado e o \\c[6]Papai\\c[0] precisa da sua\najuda!\""
+  },
+  {
+    "source": "\"It's the 294th edition of \\c[6]Water Monday\\c[0], \nthe festival of prostitutes...\nDo as you're asked!\"",
+    "target": "\"É a 294ª edição da \\c[6]Segunda-feira da Água\\c[0],\no festival das prostitutas...\nFaça o que mandarem!\""
+  },
+  {
+    "source": "\"It's your 1st day in \\c[6]St. Polla\\c[0].\nTime to ask for Jenny in the different \nsouthern districts!\"",
+    "target": "\"É seu primeiro dia em \\c[6]St. Polla\\c[0].\nÉ hora de perguntar por Jenny nos diferentes\ndistritos do sul!\""
+  },
+  {
+    "source": "\"Jail some poor wretch.\"",
+    "target": "\"Prenda algum pobre coitado.\""
+  },
+  {
+    "source": "\"Jenny needs to run errands for \nThe Table.\"",
+    "target": "\"Jenny precisa fazer tarefas para\na Mesa.\""
+  },
+  {
+    "source": "\"Join the ropo smokers.\"",
+    "target": "\"Junte-se aos fumantes de ropo.\""
+  },
+  {
+    "source": "\"Joining the guards might get you \na roof over your head. Survive the \nprocess.\n\n\n\n\n\n\n\"",
+    "target": "\"Entrar para a guarda pode garantir\num teto sobre sua cabeça. Sobreviva\nao processo.\n\n\n\n\n\n\n\""
+  },
+  {
+    "source": "\"Kick ALL guests.\"",
+    "target": "\"Expulse TODOS os visitantes.\""
+  },
+  {
+    "source": "\"Kiki is dying to hear some hot gossip \nfrom the Palisade...and she's paying for \nthe good stuff!\"",
+    "target": "\"Kiki está louca para ouvir fofocas quentes\nda Paliçada... e está pagando bem\npelas mais suculentas!\""
+  },
+  {
+    "source": "\"Known Objective\"",
+    "target": "\"Objetivo Conhecido\""
+  },
+  {
+    "source": "\"Known Reward\"",
+    "target": "\"Recompensa Conhecida\""
+  },
+  {
+    "source": "\"Kylia plans to search for treasures \nthis afternoon at Alex's Mansion... \nWill you help her?\n\"",
+    "target": "\"Kylia pretende procurar tesouros esta tarde\nna Mansão de Alex...\nVocê vai ajudá-la?\n\""
+  },
+  {
+    "source": "\"Larry and Serene have disappeared... \nwhere could they be?\"",
+    "target": "\"Larry e Serene desapareceram...\nonde será que estão?\""
+  },
+  {
+    "source": "\"Lazlo has invited you to the first party\nof your life. Hard to say no!\"",
+    "target": "\"Lazlo convidou você para a primeira festa\nda sua vida. Difícil dizer não!\""
+  },
+  {
+    "source": "\"Listen to your's team plan.\"",
+    "target": "\"Ouça o plano da sua equipe.\""
+  },
+  {
+    "source": "\"Listen Water Monday's veredict.\"",
+    "target": "\"Ouça o veredito da Segunda-feira da Água.\""
+  },
+  {
+    "source": "\"Look for Dick.\"",
+    "target": "\"Procure Dick.\""
+  },
+  {
+    "source": "\"Look for Jenny around the church!\"",
+    "target": "\"Procure Jenny nos arredores da igreja!\""
+  },
+  {
+    "source": "\"Look for Jenny in the RED HOUSE.\"",
+    "target": "\"Procure Jenny na CASA VERMELHA.\""
+  },
+  {
+    "source": "\"Look for Laz' keys at the inn.\"",
+    "target": "\"Procure as chaves de Laz na Estalagem.\""
+  },
+  {
+    "source": "\"Look for Munga in the houses of \nFulana Beach.\"",
+    "target": "\"Procure Munga nas casas da\nPraia da Fulana.\""
+  },
+  {
+    "source": "\"Look for people eager to buy carrots.\"",
+    "target": "\"Procure pessoas interessadas em comprar cenouras.\""
+  },
+  {
+    "source": "\"Look for Phil and Mort.\"",
+    "target": "\"Procure Phil e Mort.\""
+  },
+  {
+    "source": "\"Look for the cultist-maps in Mr. Boñiga's office.\"",
+    "target": "\"Procure os mapas do culto no escritório do Sr. Boñiga.\""
+  },
+  {
+    "source": "\"Look for the key in the\nshowers.\"",
+    "target": "\"Procure a chave nos\nchuveiros.\""
+  },
+  {
+    "source": "\"Look for the Lute in Lazlo's room.\"",
+    "target": "\"Procure o alaúde no quarto de Lazlo.\""
+  },
+  {
+    "source": "\"Look for the money inside Fokka's yurt.\"",
+    "target": "\"Procure o dinheiro dentro da tenda de Fokka.\""
+  },
+  {
+    "source": "\"Look for the safe.\"",
+    "target": "\"Procure o cofre.\""
+  },
+  {
+    "source": "\"Looks like Fokka Nalga is betting big on the \nnext Cool-O Fest. Maybe I can give him a hand... \nfor a few coins, of course.\"",
+    "target": "\"Parece que Fokka Nalga está apostando alto no\npróximo Cool-O Fest. Talvez eu possa ajudá-lo...\npor algumas moedas, é claro.\""
+  },
+  {
+    "source": "\"Looks like there are keys even in the Astral Plane... \nI wonder what this one opens?\"",
+    "target": "\"Parece que existem chaves até no Plano Astral...\nO que será que esta abre?\""
+  },
+  {
+    "source": "\"Madame Figue will give you the maid outfit \nyou need to enter the Red Light District. \nIn return, you'll have to please \na very special client.\"",
+    "target": "\"Madame Figue dará a você o traje de criada\nnecessário para entrar no Distrito da Luz Vermelha.\nEm troca, você terá que satisfazer\num cliente muito especial.\""
+  },
+  {
+    "source": "\"Maybe I can do a 'wee job' for the dwarves \nat the Blacksmith's Guild.\"",
+    "target": "\"Talvez eu possa fazer um 'trabalhinho' para os anões\nda Guilda dos Ferreiros.\""
+  },
+  {
+    "source": "\"Maybe it's worth going to the party \nwearing a new outfit from the \nTailors' Guild!\"",
+    "target": "\"Talvez valha a pena ir à festa\nvestindo um traje novo da\nGuilda dos Alfaiates!\""
+  },
+  {
+    "source": "\"Meet Carlos Keeper at his office in the morning\"",
+    "target": "\"Encontre Carlos Keeper no escritório dele pela manhã\""
+  },
+  {
+    "source": "\"Meet goblins' leader.\"",
+    "target": "\"Encontre o líder dos goblins.\""
+  },
+  {
+    "source": "\"Meet Lazlo at the tavern.\"",
+    "target": "\"Encontre Lazlo na taverna.\""
+  },
+  {
+    "source": "\"Meet with the lesbian female guard. \"",
+    "target": "\"Encontre a guarda lésbica.\""
+  },
+  {
+    "source": "\"Meet with the red cloak in the \nCryptoporticus.\"",
+    "target": "\"Encontre o manto vermelho no\nCriptoporticus.\""
+  },
+  {
+    "source": "\"One month under a roof\"",
+    "target": "\"Um mês sob um teto.\""
+  },
+  {
+    "source": "\"Order a drink and sit down with him.\"",
+    "target": "\"Peça uma bebida e sente-se com ele.\""
+  },
+  {
+    "source": "\"Pay HUCK NEIGHBOUR a visit.\n\"",
+    "target": "\"Faça uma visita ao VIZINHO HUCK.\n\""
+  },
+  {
+    "source": "\"Pay the Gypsy.\"",
+    "target": "\"Pague a cigana.\""
+  },
+  {
+    "source": "\"Pay the rent.\"",
+    "target": "\"Pague o aluguel.\""
+  },
+  {
+    "source": "\"Pepa the pedler works hard, but she can't do it \nall alone...\n\"",
+    "target": "\"Pepa, a mascate, trabalha duro, mas não consegue\nfazer tudo sozinha...\n\""
+  },
+  {
+    "source": "\"Pepa the pedler works hard, but she can't do it \nall alone... She and her sick cousins could use \na hand!\n\"",
+    "target": "\"Pepa, a mascate, trabalha duro, mas não consegue\nfazer tudo sozinha... Ela e suas primas doentes\nprecisam de ajuda!\n\""
+  },
+  {
+    "source": "\"Petar Orthos is one of the Red Cloaks \nwho attacked Ñoco Valley. \nLil Pimp has a plan: \nLock him up in one of his bungalows!\"",
+    "target": "\"Petar Orthos é um dos Mantos Vermelhos\nque atacaram o Vale Ñoco.\nLil Pimp tem um plano:\nprendê-lo em um de seus bangalôs!\""
+  },
+  {
+    "source": "\"Pick 5 pieces of fine wood.\"",
+    "target": "\"Pegue 5 pedaços de madeira de qualidade.\""
+  },
+  {
+    "source": "\"Play Spin the Bottle.\"",
+    "target": "\"Brinque de girar a garrafa.\""
+  },
+  {
+    "source": "\"Please Mr. Portobello at the Pink Guild.\"",
+    "target": "\"Satisfaça o Sr. Portobello na Guilda Rosa.\""
+  },
+  {
+    "source": "\"Please the hobgoblin.\"",
+    "target": "\"Satisfaça o hobgoblin.\""
+  },
+  {
+    "source": "\"Pose for Fokka Nalga.\"",
+    "target": "\"Pose para Fokka Nalga.\""
+  },
+  {
+    "source": "\"Quest \\c[4]objectives\\c[0] are used to streamline\nthe goals the player needs to achieve in\norder to make progress.\"",
+    "target": "\"Os \\c[4]objetivos\\c[0] da missão organizam\nas metas que o jogador precisa cumprir\npara avançar.\""
+  },
+  {
+    "source": "\"Return home.\"",
+    "target": "\"Volte para casa.\""
+  },
+  {
+    "source": "\"Return it to Clara.\"",
+    "target": "\"Devolva-o a Clara.\""
+  },
+  {
+    "source": "\"Return it to the Clown Ork.\"",
+    "target": "\"Devolva-a ao Ork Palhaço.\""
+  },
+  {
+    "source": "\"Return it to the Tailork.\"",
+    "target": "\"Devolva-o ao Tailork.\""
+  },
+  {
+    "source": "\"Return the key.\"",
+    "target": "\"Devolva a chave.\""
+  },
+  {
+    "source": "\"Return the LAUNDRY to everyone.\"",
+    "target": "\"Devolva as ROUPAS LAVADAS a todos.\""
+  },
+  {
+    "source": "\"Return to Madame Figue.\"",
+    "target": "\"Volte até Madame Figue.\""
+  },
+  {
+    "source": "\"Return to Mr. Portobello.\"",
+    "target": "\"Volte até o Sr. Portobello.\""
+  },
+  {
+    "source": "\"Return to speak with Lil Pimp.\"",
+    "target": "\"Volte para falar com Lil Pimp.\""
+  },
+  {
+    "source": "\"Return to the Abbey.\"",
+    "target": "\"Volte à Abadia.\""
+  },
+  {
+    "source": "\"Return to the prisoner.\"",
+    "target": "\"Volte até a prisioneira.\""
+  },
+  {
+    "source": "\"Return to the Red Light District\nand find Petar Orthos.\"",
+    "target": "\"Volte ao Distrito da Luz Vermelha\ne encontre Petar Orthos.\""
+  },
+  {
+    "source": "\"Return to the Vintners' Guild.\"",
+    "target": "\"Volte à Guilda dos Vinicultores.\""
+  },
+  {
+    "source": "\"Rewards are incentives for the player to\ncomplete them, especially quests of\nhigher difficulty levels.\"",
+    "target": "\"Recompensas incentivam o jogador a\nconcluir as missões, especialmente as de\nmaior dificuldade.\""
+  },
+  {
+    "source": "\"Rokas asked me to collect 20 GOLD COINS\nin one single day... is that even possible?\n\n\n\n\n\"",
+    "target": "\"Rokas me pediu para conseguir 20 MOEDAS DE OURO\nem um único dia... será que isso é possível?\n\n\n\n\n\""
+  },
+  {
+    "source": "\"Round up the crew at the Bingo Bar\nand speak with The Groom!\"",
+    "target": "\"Reúna o pessoal no Bingo Bar\ne fale com o Noivo!\""
+  },
+  {
+    "source": "\"Scratch inside Mike's pants.\"",
+    "target": "\"Coce por dentro das calças de Mike.\""
+  },
+  {
+    "source": "\"Scratch Whipped Mike.\"",
+    "target": "\"Coce Mike Submisso.\""
+  },
+  {
+    "source": "\"Search for a blue spiny crab.\"",
+    "target": "\"Procure um caranguejo espinhoso azul.\""
+  },
+  {
+    "source": "\"Search for Munga in the Abbey District.\"",
+    "target": "\"Procure Munga no Distrito da Abadia.\""
+  },
+  {
+    "source": "\"Search for PETAR'S JOURNAL in Room 105 (Blue House)\"",
+    "target": "\"Procure o DIÁRIO DE PETAR no Quarto 105 (Casa Azul)\""
+  },
+  {
+    "source": "\"Search for the secret room.\"",
+    "target": "\"Procure a sala secreta.\""
+  },
+  {
+    "source": "\"Search the northernmost house in the \ndistrict.\"",
+    "target": "\"Vasculhe a casa mais ao norte do\ndistrito.\""
+  },
+  {
+    "source": "\"Secret access to the city.\"",
+    "target": "\"Acesso secreto à cidade.\""
+  },
+  {
+    "source": "\"Seek help inside the Blue House in the RLD.\"",
+    "target": "\"Procure ajuda dentro da Casa Azul no DLV.\""
+  },
+  {
+    "source": "\"Sell the GREENIES BOX at the Abbey.\"",
+    "target": "\"Venda a CAIXA DE VERDINHOS na Abadia.\""
+  },
+  {
+    "source": "\"Serene has confessed she's a huge fan \nof Larry Capija III. Maybe you can \nintroduce them!\"",
+    "target": "\"Serene confessou que é uma grande fã\nde Larry Capija III. Talvez você possa\napresentá-los!\""
+  },
+  {
+    "source": "\"Serve the customers.\"",
+    "target": "\"Sirva os clientes.\""
+  },
+  {
+    "source": "\"Serve the tables.\"",
+    "target": "\"Sirva as mesas.\""
+  },
+  {
+    "source": "\"Shaman Ork's got these \\\"magic\\\" mushrooms that, \naccording to him, might help me find Jenny... \nI guess I should try at least one!\"",
+    "target": "\"O Xamã Ork tem uns cogumelos \\\"mágicos\\\" que,\nsegundo ele, talvez me ajudem a encontrar Jenny...\nAcho que devo provar pelo menos um!\""
+  },
+  {
+    "source": "\"Some cash.\"",
+    "target": "\"Um pouco de dinheiro.\""
+  },
+  {
+    "source": "\"Some Gold Coins.\"",
+    "target": "\"Algumas Moedas de Ouro.\""
+  },
+  {
+    "source": "\"Some locals told you that you could enter \nthe houses through the back window.\"",
+    "target": "\"Alguns moradores disseram que você poderia entrar\nnas casas pela janela dos fundos.\""
+  },
+  {
+    "source": "\"Some partygoers have complained that there's\nno music... is there any solution?”\n\"",
+    "target": "\"Alguns convidados reclamaram que não há\nmúsica... será que existe uma solução?\n\""
+  },
+  {
+    "source": "\"Some people say the blue spider crab \nis much more delicious... Perhaps you \ncould bring one for Rebecca.\"",
+    "target": "\"Algumas pessoas dizem que o caranguejo-aranha azul\né muito mais saboroso... Talvez você\npossa levar um para Rebecca.\""
+  },
+  {
+    "source": "\"Someone at the other side of the door\nof the \\c[6]abandoned building\\c[0]\nsouth-west of the \\c[6]Market\\c[0] wants\nto know about Alex and his fortune, and\nyou're perfect to be the mole.\"",
+    "target": "\"Alguém do outro lado da porta\ndo \\c[6]prédio abandonado\\c[0], a sudoeste\ndo \\c[6]Mercado\\c[0], quer saber sobre Alex\ne sua fortuna, e você é perfeita\npara servir de informante.\""
+  },
+  {
+    "source": "\"Someone in the Palisade stole a SEXY OUTFIT \nfrom the Tailork. If I get it back, I might \nearn some coins. Maybe the ork women know \nsomething.\"",
+    "target": "\"Alguém na Paliçada roubou um TRAJE SEXY\ndo Tailork. Se eu recuperá-lo, talvez\nganhe algumas moedas. Talvez as mulheres orks\nsaibam de alguma coisa.\""
+  },
+  {
+    "source": "\"Speak again with Serene.\"",
+    "target": "\"Fale novamente com Serene.\""
+  },
+  {
+    "source": "\"Speak again with the red cloak in\nthe Cryptoporticus.\"",
+    "target": "\"Fale novamente com o manto vermelho\nno Criptoporticus.\""
+  },
+  {
+    "source": "\"Speak back with Dom.\"",
+    "target": "\"Volte a falar com Dom.\""
+  },
+  {
+    "source": "\"Speak with Big Bob.\"",
+    "target": "\"Fale com Grandão Bob.\""
+  },
+  {
+    "source": "\"Speak with Lazlo.\"",
+    "target": "\"Fale com Lazlo.\""
+  },
+  {
+    "source": "\"Speak with Madame Bonapicha.\"",
+    "target": "\"Fale com Madame Bonapicha.\""
+  },
+  {
+    "source": "\"Speak with Mamen.\"",
+    "target": "\"Fale com Mamen.\""
+  },
+  {
+    "source": "\"Speak with Munga and Frank.\"",
+    "target": "\"Fale com Munga e Frank.\""
+  },
+  {
+    "source": "\"Speak with Rokas.\"",
+    "target": "\"Fale com Rokas.\""
+  },
+  {
+    "source": "\"Speak with the Boss Lady.\"",
+    "target": "\"Fale com a chefe.\""
+  },
+  {
+    "source": "\"Speak with the client in the Blowgeon.\"",
+    "target": "\"Fale com o cliente no Blowgeon.\""
+  },
+  {
+    "source": "\"Speak with the Gate Keeper.\"",
+    "target": "\"Fale com o guarda do portão.\""
+  },
+  {
+    "source": "\"Speak with the Mercenary.\"",
+    "target": "\"Fale com o Mercenário.\""
+  },
+  {
+    "source": "\"St. Polla guard armor.\"",
+    "target": "\"Armadura da guarda de St. Polla.\""
+  },
+  {
+    "source": "\"Stay in the caravan.\"",
+    "target": "\"Permaneça na carroça.\""
+  },
+  {
+    "source": "\"Steal the 'Death Note'.\"",
+    "target": "\"Roube o 'Death Note'.\""
+  },
+  {
+    "source": "\"Take a decission.\"",
+    "target": "\"Tome uma decisão.\""
+  },
+  {
+    "source": "\"Take Kylia to Gomul's house.\"",
+    "target": "\"Leve Kylia à casa de Gomul.\""
+  },
+  {
+    "source": "\"Take Serene to see Larry.\"",
+    "target": "\"Leve Serene para ver Larry.\""
+  },
+  {
+    "source": "\"Take the crab to Rebecca.\"",
+    "target": "\"Leve o caranguejo para Rebecca.\""
+  },
+  {
+    "source": "\"Take the GREENIES BOX from Pepa's yurt.\"",
+    "target": "\"Pegue a CAIXA DE VERDINHOS na tenda de Pepa.\""
+  },
+  {
+    "source": "\"Take the guards to Rokas' shack.\"",
+    "target": "\"Leve os guardas até o barraco de Rokas.\""
+  },
+  {
+    "source": "\"Take the herbs to Madame Figue.\"",
+    "target": "\"Leve as ervas para Madame Figue.\""
+  },
+  {
+    "source": "\"Take the Spider Crab to Rebecca.\"",
+    "target": "\"Leve o Caranguejo-Aranha para Rebecca.\""
+  },
+  {
+    "source": "\"Take the wine to the members of \nthe table.\"",
+    "target": "\"Leve o vinho aos membros\nda Mesa.\""
+  },
+  {
+    "source": "\"Talk to Alex Botin's former bouncer.\"",
+    "target": "\"Fale com o antigo segurança de Alex Botin.\""
+  },
+  {
+    "source": "\"Talk to everyone about the cult.\"",
+    "target": "\"Fale com todos sobre o culto.\""
+  },
+  {
+    "source": "\"Talk to Frank and run away!\"",
+    "target": "\"Fale com Frank e fuja!\""
+  },
+  {
+    "source": "\"Talk to Frank.\"",
+    "target": "\"Fale com Frank.\""
+  },
+  {
+    "source": "\"Talk to Larry Capija.\"",
+    "target": "\"Fale com Larry Capija.\""
+  },
+  {
+    "source": "\"Talk to Munga and/or Jordani.\"",
+    "target": "\"Fale com Munga e/ou Jordani.\""
+  },
+  {
+    "source": "\"Talk to people.\"",
+    "target": "\"Converse com as pessoas.\""
+  },
+  {
+    "source": "\"Talk to the DOOR after meeting ALEX.\"",
+    "target": "\"Fale com a PORTA depois de conhecer ALEX.\""
+  },
+  {
+    "source": "\"Talk to the DOOR after seeing\na MERCENARY.\"",
+    "target": "\"Fale com a PORTA depois de encontrar\num MERCENÁRIO.\""
+  },
+  {
+    "source": "\"Talk to the goblins gang outside the city.\"",
+    "target": "\"Fale com a gangue de goblins fora da cidade.\""
+  },
+  {
+    "source": "\"Talk to the guards at the district gate.\"",
+    "target": "\"Fale com os guardas no portão do distrito.\""
+  },
+  {
+    "source": "\"Talk to the Guild Master.\"",
+    "target": "\"Fale com o Mestre da Guilda.\""
+  },
+  {
+    "source": "\"Talk to the Mercenary.\"",
+    "target": "\"Fale com o Mercenário.\""
+  },
+  {
+    "source": "\"Talk with Jak and accept.\"",
+    "target": "\"Fale com Jak e aceite.\""
+  },
+  {
+    "source": "\"Talk with the gate guards.\"",
+    "target": "\"Fale com os guardas do portão.\""
+  },
+  {
+    "source": "\"Tell Dick when Fokka's yurt is empty.\"",
+    "target": "\"Avise Dick quando a tenda de Fokka estiver vazia.\""
+  },
+  {
+    "source": "\"Tell Kiki a REALLY JUICY piece of gossip.\"",
+    "target": "\"Conte a Kiki uma fofoca BEM SUCULENTA.\""
+  },
+  {
+    "source": "\"Tell Pompadour Goblin about the Gobblas.\"",
+    "target": "\"Conte ao Goblin de Topete sobre as Gobblas.\""
+  },
+  {
+    "source": "\"Tell Strom your decision.\"",
+    "target": "\"Conte sua decisão a Strom.\""
+  },
+  {
+    "source": "\"The \\c[4]subtext\\c[0] section can be used in a\nnumber of ways, from hints to summaries,\nto warnings.\n\nAnd like the quest \\c[4]description\\c[0], you can\nchange the text displayed in the \\c[4]subtext\\c[0]\nthrough changing the \\c[4]Subtext ID\\c[0].\"",
+    "target": "\"A seção de \\c[4]subtexto\\c[0] pode servir de\nvárias formas: dicas, resumos\ne avisos.\n\nAssim como a \\c[4]descrição\\c[0] da missão, você pode\nalterar o texto exibido no \\c[4]subtexto\\c[0]\nmudando o \\c[4]ID do Subtexto\\c[0].\""
+  },
+  {
+    "source": "\"The \\c[6]gobblas\\c[0] seem to be kidnapped \nsomewhere in the city. I've talked to them\nat the Hexahedron Inc. Factory. They are\nbasically slaves working for Mr. Boñiga.\n\"",
+    "target": "\"As \\c[6]gobblas\\c[0] parecem ter sido sequestradas\nem algum lugar da cidade. Falei com elas\nna fábrica da Hexahedron Inc. Elas praticamente\ntrabalham como escravas para o Sr. Boñiga.\n\""
+  },
+  {
+    "source": "\"The \\c[6]gobblas\\c[0] seem to be kidnapped \nsomewhere in the city. The goblins need to \nknow where are their gals!\n\n\"",
+    "target": "\"As \\c[6]gobblas\\c[0] parecem ter sido sequestradas\nem algum lugar da cidade. Os goblins precisam\nsaber onde estão suas garotas!\n\n\""
+  },
+  {
+    "source": "\"The \\c[6]goblins\\c[0] think you are funny, \nthey want you to meet their leader...\"",
+    "target": "\"Os \\c[6]goblins\\c[0] acham você engraçada\ne querem que conheça o líder deles...\""
+  },
+  {
+    "source": "\"The \\c[6]Mercenary\\c[0] wants you to steal Alex's \nnotebook. It could be a lot of money.\"",
+    "target": "\"O \\c[6]Mercenário\\c[0] quer que você roube o\ncaderno de Alex. Isso pode render muito dinheiro.\""
+  },
+  {
+    "source": "\"The \\c[6]Ropo Guys\\c[0] invited you to smoke \n\\c[6]ropo\\c[0] before you go to bed.\"",
+    "target": "\"Os \\c[6]Rapazes do Ropo\\c[0] convidaram você para fumar\n\\c[6]ropo\\c[0] antes de ir dormir.\""
+  },
+  {
+    "source": "\"The boss of the West St. Polla Factory \nis a very important Red Cloak. \nInfiltrate the factory and get the \ncult's maps!\"",
+    "target": "\"O chefe da Fábrica do Oeste de St. Polla\né um Manto Vermelho muito importante.\nInfiltre-se na fábrica e pegue os\nmapas do culto!\""
+  },
+  {
+    "source": "\"The Carrot Pedler needs customers. Bring her \nsome and maybe there'll be a commission!\"",
+    "target": "\"A Vendedora de Cenouras precisa de clientes. Leve alguns\naté ela e talvez você ganhe uma comissão!\""
+  },
+  {
+    "source": "\"The Clown Ork left \\\"something\\\" in the POOR HOTSPRINGS\nof the Abbey. He says it's \\\"a little bag\\\"...\"",
+    "target": "\"O Ork Palhaço deixou \\\"algo\\\" nas TERMAS DOS POBRES\nda Abadia. Ele diz que é \\\"uma pequena bolsa\\\"...\""
+  },
+  {
+    "source": "\"The groom from the bachelor party is feeling down.\nHe lost his DRUNK COUSIN and his BRO-IN-LAW\nduring last night's wild ride through the RLD.\nTime to round up the crew at the Bingo Bar!\"",
+    "target": "\"O noivo da despedida de solteiro está abatido.\nEle perdeu o PRIMO BÊBADO e o CUNHADO\ndurante a farra de ontem à noite pelo DLV.\nHora de reunir o pessoal no Bingo Bar!\""
+  },
+  {
+    "source": "\"The guy from the museum told me \nto kick every visitor out. \nIt seems that nobody listens to him...\n\n\"",
+    "target": "\"O sujeito do museu mandou expulsar\ntodos os visitantes. Parece que\nninguém dá ouvidos a ele...\n\n\""
+  },
+  {
+    "source": "\"The neighbors won't see your nipples.\"",
+    "target": "\"Os vizinhos não verão seus mamilos.\""
+  },
+  {
+    "source": "\"There's a sad little plant here... \nMaybe I could help it feel happy again?\"",
+    "target": "\"Há uma plantinha triste aqui...\nTalvez eu possa alegrá-la de novo?\""
+  },
+  {
+    "source": "\"There's a very important burial in the fancy\npart of the cemetery... Go and investigate!\n\"",
+    "target": "\"Há um enterro muito importante na parte nobre\ndo cemitério... Vá investigar!\n\""
+  },
+  {
+    "source": "\"There's an \\c[6]ork\\c[0] who rents out a ROOM. \nMaybe it could be your future home...\"",
+    "target": "\"Há um \\c[6]ork\\c[0] que aluga um QUARTO.\nTalvez ele possa ser seu futuro lar...\""
+  },
+  {
+    "source": "\"There's going to be a showdown between \n\\c[6]Strom\\c[0] and \\c[6]Rokas\\c[0]. It's not expected \nto end well...\n\n\"",
+    "target": "\"Haverá um confronto entre \\c[6]Strom\\c[0] e\n\\c[6]Rokas\\c[0]. Não se espera que termine\nbem...\n\n\""
+  },
+  {
+    "source": "\"This is a \\c[4]subtext\\c[0]. It is used as extra\ntext that you may want to place on your\nquest journal that differs from the\n\\c[4]description\\c[0].\"",
+    "target": "\"Este é um \\c[4]subtexto\\c[0]. Ele serve como um texto\nextra que você pode colocar no diário de\nmissões, diferente da\n\\c[4]descrição\\c[0].\""
+  },
+  {
+    "source": "\"This is the updated quest description. This\ncan only be seen when it is Description ID #2.\"",
+    "target": "\"Esta é a descrição atualizada da missão. Ela\nsó aparece quando o ID da Descrição é nº 2.\""
+  },
+  {
+    "source": "\"Those shroomies took me straight into the Astral! \nI should probably find a way out of this world...\n\n\n\n\n\"",
+    "target": "\"Esses cogumelos me trouxeram direto para o Astral!\nÉ melhor eu encontrar uma saída deste mundo...\n\n\n\n\n\""
+  },
+  {
+    "source": "\"Tie Petar up on a safe bed.\"",
+    "target": "\"Amarre Petar em uma cama segura.\""
+  },
+  {
+    "source": "\"Treat \\c[4]quest objectives\\c[0] like a set of\ninstructions or outline for the player\nto follow in order to get the desired\nresult both of you want.\"",
+    "target": "\"Trate os \\c[4]objetivos da missão\\c[0] como\ninstruções ou um roteiro que o jogador\ndeve seguir para chegar ao\nresultado desejado.\""
+  },
+  {
+    "source": "\"Try changing it to \\c[4]2\\c[0] through the\n\\c[4]Plugin Command\\c[0] see what it becomes.\"",
+    "target": "\"Tente mudar para \\c[4]2\\c[0] usando o\n\\c[4]Comando do Plugin\\c[0] e veja o resultado.\""
+  },
+  {
+    "source": "\"Try entering through the rear windows.\"",
+    "target": "\"Tente entrar pelas janelas dos fundos.\""
+  },
+  {
+    "source": "\"Try to fix the problem with\nthe (no) music.\"",
+    "target": "\"Tente resolver o problema da\nfalta de música.\""
+  },
+  {
+    "source": "\"Two museum tickets.\"",
+    "target": "\"Dois ingressos para o museu.\""
+  },
+  {
+    "source": "\"Use the \\c[4]Quest System\\c[0] as a means to\nstreamline your player's experience.\"",
+    "target": "\"Use o \\c[4]Sistema de Missões\\c[0] para\ntornar mais clara a experiência do jogador.\""
+  },
+  {
+    "source": "\"Use the key.\"",
+    "target": "\"Use a chave.\""
+  },
+  {
+    "source": "\"Using the \\c[6]JS: On Load \\c[4]Plugin Parameter\\c[0],\nyou can run \\c[4]JavaScript\\c[0] code prior to the\ncreation of the text written here.\n\nIn this example, game switch 1's ON/OFF\nstatus will determine which description\nthis quest will use.\n\nGame Switch 1 is now \\c[24]ON\\c[0]!\n\nDescription ID \\c[4]2\\c[0] is being used.\"",
+    "target": "\"Usando o \\c[4]Parâmetro do Plugin\\c[0]\n\\c[6]JS: Ao Carregar\\c[0], você pode executar código\n\\c[4]JavaScript\\c[0] antes de criar este texto.\n\nNeste exemplo, o estado LIGADO/DESLIGADO\ndo interruptor 1 define qual descrição\na missão usará.\n\nO Interruptor 1 está \\c[24]LIGADO\\c[0]!\n\nO ID da Descrição \\c[4]2\\c[0] está em uso.\""
+  },
+  {
+    "source": "\"Using the \\c[6]JS: On Load \\c[4]Plugin Parameter\\c[0],\nyou can run \\c[4]JavaScript\\c[0] code prior to the\ncreation of the text written here.\n\nIn this example, game switch 1's ON/OFF\nstatus will determine which description\nthis quest will use.\n\nGame Switch 1 is now \\c[25]OFF\\c[0]!\n\nDescription ID \\c[4]1\\c[0] is being used.\"",
+    "target": "\"Usando o \\c[4]Parâmetro do Plugin\\c[0]\n\\c[6]JS: Ao Carregar\\c[0], você pode executar código\n\\c[4]JavaScript\\c[0] antes de criar este texto.\n\nNeste exemplo, o estado LIGADO/DESLIGADO\ndo interruptor 1 define qual descrição\na missão usará.\n\nO Interruptor 1 está \\c[25]DESLIGADO\\c[0]!\n\nO ID da Descrição \\c[4]1\\c[0] está em uso.\""
+  },
+  {
+    "source": "\"View this quest's \\c[4]description\\c[0].\"",
+    "target": "\"Veja a \\c[4]descrição\\c[0] desta missão.\""
+  },
+  {
+    "source": "\"Visit Captain Melo in his quarters tonight.\"",
+    "target": "\"Visite o Capitão Melo em seus aposentos esta noite.\""
+  },
+  {
+    "source": "\"Visit Lil Pimp's office.\"",
+    "target": "\"Visite o escritório de Lil Pimp.\""
+  },
+  {
+    "source": "\"Wait for Frank.\"",
+    "target": "\"Espere por Frank.\""
+  },
+  {
+    "source": "\"Wait for further movements.\"",
+    "target": "\"Aguarde novas movimentações.\""
+  },
+  {
+    "source": "\"Wait for Lazlo at home.\"",
+    "target": "\"Espere por Lazlo em casa.\""
+  },
+  {
+    "source": "\"Wait for the afternoon.\"",
+    "target": "\"Espere até a tarde.\""
+  },
+  {
+    "source": "\"Wait on the armchair.\"",
+    "target": "\"Espere na poltrona.\""
+  },
+  {
+    "source": "\"Wait to be attended.\"",
+    "target": "\"Espere ser atendida.\""
+  },
+  {
+    "source": "\"Wait until dusk.\"",
+    "target": "\"Espere até o anoitecer.\""
+  },
+  {
+    "source": "\"Wait until sunset.\"",
+    "target": "\"Espere até o pôr do sol.\""
+  },
+  {
+    "source": "\"Wait until you are done with your work.\n\"",
+    "target": "\"Espere até terminar seu trabalho.\n\""
+  },
+  {
+    "source": "\"Water Monday is coming to an end, \nMaybe it could be the perfect chance \nto 'make a change'.\n\"",
+    "target": "\"A Segunda-feira da Água está chegando ao fim.\\nTalvez seja a oportunidade perfeita\\npara \\\"mudar as coisas\\\".\\n\""
+  },
+  {
+    "source": "\"Whipped Mike's crotch is itching... \nWill you help him relieve the itch?\n\"",
+    "target": "\"A virilha de Mike Submisso está coçando...\nVocê vai ajudá-lo a aliviar a coceira?\n\""
+  },
+  {
+    "source": "\"Work Permit.\"",
+    "target": "\"Autorização de Trabalho.\""
+  },
+  {
+    "source": "\"You are a slave now and your master is\n\\c[6]Rokas\\c[0]... Survive the day 1.\"",
+    "target": "\"Agora você é uma escrava e seu mestre é\n\\c[6]Rokas\\c[0]... Sobreviva ao primeiro dia.\""
+  },
+  {
+    "source": "\"You are completely soaked because \nof \\c[6]Jenny\\c[0]. Now you need to change \nbefore continuing your quest... \nRight?\"",
+    "target": "\"Você está completamente encharcada por causa\nde \\c[6]Jenny\\c[0]. Agora precisa se trocar\nantes de continuar sua missão...\nCerto?\""
+  },
+  {
+    "source": "\"You can also \\c[4]remove\\c[0] objectives from\nbeing viewed.\"",
+    "target": "\"Você também pode \\c[4]remover\\c[0] objetivos\nda exibição.\""
+  },
+  {
+    "source": "\"You can also \\c[4]remove\\c[0] rewardsfrom\nbeing viewed.\"",
+    "target": "\"Você também pode \\c[4]remover\\c[0] recompensas\nda exibição.\""
+  },
+  {
+    "source": "\"You can change the Description ID by\nusing the \\c[6]Quest: Description Change\\c[0]\n\\c[4]Plugin Parameter\\c[0].\"",
+    "target": "\"Você pode alterar o ID da Descrição usando\no \\c[4]Parâmetro do Plugin\\c[0]\n\\c[6]Missão: Alterar Descrição\\c[0].\""
+  },
+  {
+    "source": "\"You can change the Quote ID by\nusing the \\c[6]Quest: Quote Change\\c[0]\n\\c[4]Plugin Parameter\\c[0].\"",
+    "target": "\"Você pode alterar o ID da Citação usando\no \\c[4]Parâmetro do Plugin\\c[0]\n\\c[6]Missão: Alterar Citação\\c[0].\""
+  },
+  {
+    "source": "\"You can change the status of each\n\\c[4]Quest Objective\\c[0] to \\c[4]Known\\c[0], \\c[24]Completed\\c[0],\nor \\c[25]Failed\\c[0].\"",
+    "target": "\"Você pode mudar o estado de cada\n\\c[4]Objetivo da Missão\\c[0] para \\c[4]Conhecido\\c[0],\n\\c[24]Concluído\\c[0] ou \\c[25]Fracassado\\c[0].\""
+  },
+  {
+    "source": "\"You can change the status of each\n\\c[4]Quest Reward\\c[0] to \\c[4]Known\\c[0], \\c[24]Claimed\\c[0],\nor \\c[25]Denied\\c[0].\"",
+    "target": "\"Você pode mudar o estado de cada\n\\c[4]Recompensa da Missão\\c[0] para \\c[4]Conhecida\\c[0],\n\\c[24]Recebida\\c[0] ou \\c[25]Negada\\c[0].\""
+  },
+  {
+    "source": "\"You can change the Subtext ID by\nusing the \\c[6]Quest: Subtext Change\\c[0]\n\\c[4]Plugin Parameter\\c[0].\"",
+    "target": "\"Você pode alterar o ID do Subtexto usando\no \\c[4]Parâmetro do Plugin\\c[0]\n\\c[6]Missão: Alterar Subtexto\\c[0].\""
+  },
+  {
+    "source": "\"You can determine the default \\c[4]quest\nobjectives\\c[0] through the \\c[6]Visible\nObjectives \\c[4]Plugin Parameter\\c[0].\"",
+    "target": "\"Você pode definir os \\c[4]objetivos padrão\nda missão\\c[0] pelo \\c[4]Parâmetro do Plugin\\c[0]\n\\c[6]Objetivos Visíveis\\c[0].\""
+  },
+  {
+    "source": "\"You can determine the default \\c[4]quest\nrewards\\c[0] through the \\c[6]Visible\nRewards \\c[4]Plugin Parameter\\c[0].\"",
+    "target": "\"Você pode definir as \\c[4]recompensas padrão\nda missão\\c[0] pelo \\c[4]Parâmetro do Plugin\\c[0]\n\\c[6]Recompensas Visíveis\\c[0].\""
+  },
+  {
+    "source": "\"You can list multiple rewards, too.\"",
+    "target": "\"Você também pode listar várias recompensas.\""
+  },
+  {
+    "source": "\"You can list the rewards however you\nlike, but do keep it concise.\"",
+    "target": "\"Você pode listar as recompensas como\nquiser, mas seja breve.\""
+  },
+  {
+    "source": "\"You can reveal new \\c[4]quest objectives\\c[0]\nthrough the use of \\c[4]Plugin Command\\c[0]:\n\\c[6]Quest: Objectives Change\\c[0].\n \n\\c[4]The following are examples:\\c[0]\"",
+    "target": "\"Você pode revelar novos \\c[4]objetivos da missão\\c[0]\nusando o \\c[4]Comando do Plugin\\c[0]:\n\\c[6]Missão: Alterar Objetivos\\c[0].\n \n\\c[4]Veja alguns exemplos:\\c[0]\""
+  },
+  {
+    "source": "\"You can reveal new \\c[4]quest rewards\\c[0]\nthrough the use of \\c[4]Plugin Command\\c[0]:\n\\c[6]Quest: Rewards Change\\c[0].\n \n\\c[4]The following are examples:\\c[0]\"",
+    "target": "\"Você pode revelar novas \\c[4]recompensas da missão\\c[0]\nusando o \\c[4]Comando do Plugin\\c[0]:\n\\c[6]Missão: Alterar Recompensas\\c[0].\n \n\\c[4]Veja alguns exemplos:\\c[0]\""
+  },
+  {
+    "source": "\"You find yourself at \\c[6]Rokas\\c[0] caravan \ncamp surrounded by strangers. \nFind out what you should do next.\"",
+    "target": "\"Você está no acampamento da caravana de \\c[6]Rokas\\c[0],\ncercada por estranhos.\nDescubra o que deve fazer agora.\""
+  },
+  {
+    "source": "\"You spent a night in the open and you \ndon't want to repeat the expieriece\nagain...\"",
+    "target": "\"Você passou uma noite ao relento e não\nquer repetir essa experiência...\""
+  },
+  {
+    "source": "\\c[2]Hidden Quests",
+    "target": "\\c[2]Quests Ocultas"
+  },
+  {
+    "source": "\\C[5]Main Quests",
+    "target": "\\C[5]Quests Principais"
+  },
+  {
+    "source": "\\c[6]Side Quests",
+    "target": "\\c[6]Quests Secundárias"
+  },
+  {
+    "source": "\\i[100]1st time at the Museum",
+    "target": "\\i[100]Primeira Vez no Museu"
+  },
+  {
+    "source": "\\i[100]A Date with the Beyond",
+    "target": "\\i[100]Um Encontro com o Além"
+  },
+  {
+    "source": "\\i[100]A Dick Calls",
+    "target": "\\i[100]Um Pau Telefona"
+  },
+  {
+    "source": "\\i[100]A flutist Seeks Help",
+    "target": "\\i[100]Um Flautista Procura Ajuda"
+  },
+  {
+    "source": "\\i[100]A hairy situation",
+    "target": "\\i[100]Uma Situação Peluda"
+  },
+  {
+    "source": "\\i[100]A Mare Fan.",
+    "target": "\\i[100]Uma Fã de Éguas"
+  },
+  {
+    "source": "\\i[100]A Second Combat",
+    "target": "\\i[100]Um Segundo Combate"
+  },
+  {
+    "source": "\\i[100]A Very Special Client",
+    "target": "\\i[100]Um Cliente Muito Especial"
+  },
+  {
+    "source": "\\i[100]A Wee Job",
+    "target": "\\i[100]Um Trabalinho"
+  },
+  {
+    "source": "\\i[100]A woman for Thorgrim",
+    "target": "\\i[100]Uma Mulher para Thorgrim"
+  },
+  {
+    "source": "\\i[100]Back Window",
+    "target": "\\i[100]Janela dos Fundos"
+  },
+  {
+    "source": "\\i[100]Big Bob's Canteen",
+    "target": "\\i[100]A Cantina do Grandão Bob"
+  },
+  {
+    "source": "\\i[100]Blue Spiny Crab",
+    "target": "\\i[100]Caranguejo Espinhoso Azul"
+  },
+  {
+    "source": "\\i[100]Charm the guard",
+    "target": "\\i[100]Encantar a Guarda"
+  },
+  {
+    "source": "\\i[100]Dress Code: None",
+    "target": "\\i[100]Código de Vestimenta: Nenhum"
+  },
+  {
+    "source": "\\i[100]Escape with Frank",
+    "target": "\\i[100]Fugir com Frank"
+  },
+  {
+    "source": "\\i[100]Fancy for Carrots?",
+    "target": "\\i[100]Com Vontade de Cenouras?"
+  },
+  {
+    "source": "\\i[100]Find The Goblas",
+    "target": "\\i[100]Encontrar as Gobblas"
+  },
+  {
+    "source": "\\i[100]Get Changed",
+    "target": "\\i[100]Trocar de Roupa"
+  },
+  {
+    "source": "\\i[100]Hairy Situation",
+    "target": "\\i[100]Situação Peluda"
+  },
+  {
+    "source": "\\i[100]Help a Poor Wretch",
+    "target": "\\i[100]Ajudar um Pobre Coitado"
+  },
+  {
+    "source": "\\i[100]Interview with the Cultist",
+    "target": "\\i[100]Entrevista com o Cultista"
+  },
+  {
+    "source": "\\i[100]Juicy Gossips",
+    "target": "\\i[100]Fofocas Suculentas"
+  },
+  {
+    "source": "\\i[100]Pepa's Need",
+    "target": "\\i[100]A Necessidade de Pepa"
+  },
+  {
+    "source": "\\i[100]Pretty Amy.",
+    "target": "\\i[100]Amy Bonita"
+  },
+  {
+    "source": "\\i[100]Rent a room",
+    "target": "\\i[100]Alugar um Quarto"
+  },
+  {
+    "source": "\\i[100]RLD Hangover",
+    "target": "\\i[100]Ressaca no DLV"
+  },
+  {
+    "source": "\\i[100]Rokas' Way",
+    "target": "\\i[100]O Jeito de Rokas"
+  },
+  {
+    "source": "\\i[100]Second Instruction",
+    "target": "\\i[100]Segunda Instrução"
+  },
+  {
+    "source": "\\i[100]Sleep with Strom",
+    "target": "\\i[100]Dormir com Strom"
+  },
+  {
+    "source": "\\i[100]Sneak Into the Hotel",
+    "target": "\\i[100]Entrar às Escondidas no Hotel"
+  },
+  {
+    "source": "\\i[100]Team Nalga's Prep",
+    "target": "\\i[100]Preparação da Equipe Nalga"
+  },
+  {
+    "source": "\\i[100]The (Magic?) Mushrooms.",
+    "target": "\\i[100]Os Cogumelos (Mágicos?)"
+  },
+  {
+    "source": "\\i[100]The Astral Key.",
+    "target": "\\i[100]A Chave Astral"
+  },
+  {
+    "source": "\\i[100]The first puff",
+    "target": "\\i[100]A Primeira Tragada"
+  },
+  {
+    "source": "\\i[100]The Hobjob",
+    "target": "\\i[100]O Bico do Mendigo"
+  },
+  {
+    "source": "\\i[100]The Landlady",
+    "target": "\\i[100]A Dona da Taverna"
+  },
+  {
+    "source": "\\i[100]The Mercenary",
+    "target": "\\i[100]A Mercenária"
+  },
+  {
+    "source": "\\i[100]The Mercenary Job",
+    "target": "\\i[100]O Trabalho de Mercenária"
+  },
+  {
+    "source": "\\i[100]The Missing Outfit",
+    "target": "\\i[100]A Roupa Desaparecida"
+  },
+  {
+    "source": "\\i[100]The Pink Guild",
+    "target": "\\i[100]A Guilda Rosa"
+  },
+  {
+    "source": "\\i[100]The Prisoner",
+    "target": "\\i[100]A Prisioneira"
+  },
+  {
+    "source": "\\i[100]The Rebel Boy",
+    "target": "\\i[100]O Garoto Rebelde"
+  },
+  {
+    "source": "\\i[100]The Rogue Dark Elf",
+    "target": "\\i[100]A Elfa Negra Renegada"
+  },
+  {
+    "source": "\\i[100]The Sad Plant.",
+    "target": "\\i[100]A Planta Triste"
+  },
+  {
+    "source": "\\i[100]Visit Huck",
+    "target": "\\i[100]Visitar Huck"
+  },
+  {
+    "source": "\\i[100]Where's The Music?",
+    "target": "\\i[100]Onde Está a Música?"
+  },
+  {
+    "source": "\\i[193]Descriptions",
+    "target": "\\i[193]Descrições"
+  },
+  {
+    "source": "\\i[193]Difficulty",
+    "target": "\\i[193]Dificuldade"
+  },
+  {
+    "source": "\\i[193]From",
+    "target": "\\i[193]Origem"
+  },
+  {
+    "source": "\\i[193]Objectives",
+    "target": "\\i[193]Objetivos"
+  },
+  {
+    "source": "\\i[193]Quotes",
+    "target": "\\i[193]Citações"
+  },
+  {
+    "source": "\\i[193]Rewards",
+    "target": "\\i[193]Recompensas"
+  },
+  {
+    "source": "\\i[193]Subtexts",
+    "target": "\\i[193]Subtextos"
+  },
+  {
+    "source": "\\i[5]Mystery Door",
+    "target": "\\i[5]Porta Misteriosa"
+  },
+  {
+    "source": "\\i[5]Switches",
+    "target": "\\i[5]Interruptores"
+  },
+  {
+    "source": "\\i[5]The \"Little Bag\"",
+    "target": "\\i[5]A \"Pequena Bolsa\""
+  },
+  {
+    "source": "\\i[5]The Lost Cabin Key",
+    "target": "\\i[5]A Chave Perdida da Cabana"
+  },
+  {
+    "source": "\\i[87]A bad trip?",
+    "target": "\\i[87]Uma Viagem Ruim?"
+  },
+  {
+    "source": "\\i[87]A New Day with the Guards",
+    "target": "\\i[87]Um Novo Dia com os Guardas"
+  },
+  {
+    "source": "\\i[87]Amy's First Party",
+    "target": "\\i[87]A Primeira Festa de Amy"
+  },
+  {
+    "source": "\\i[87]Day 1 at Rokas'",
+    "target": "\\i[87]Primeiro Dia com Rokas"
+  },
+  {
+    "source": "\\i[87]Enter St. Polla",
+    "target": "\\i[87]Entrar em St. Polla"
+  },
+  {
+    "source": "\\i[87]Entering the Royal District",
+    "target": "\\i[87]Entrando no Distrito Real"
+  },
+  {
+    "source": "\\i[87]Find a shelter.",
+    "target": "\\i[87]Encontrar um Abrigo"
+  },
+  {
+    "source": "\\i[87]First Time in the Red Light District",
+    "target": "\\i[87]Primeira Vez no Distrito da Luz Vermelha"
+  },
+  {
+    "source": "\\i[87]Help Dad",
+    "target": "\\i[87]Ajudar o Papai"
+  },
+  {
+    "source": "\\i[87]Look for Jenny",
+    "target": "\\i[87]Procurar Jenny"
+  },
+  {
+    "source": "\\i[87]Meet Frank at Sunset",
+    "target": "\\i[87]Encontrar Frank ao Pôr do Sol"
+  },
+  {
+    "source": "\\i[87]Pay the rent.",
+    "target": "\\i[87]Pagar o Aluguel"
+  },
+  {
+    "source": "\\i[87]Rokas vs Strom",
+    "target": "\\i[87]Rokas contra Strom"
+  },
+  {
+    "source": "\\i[87]Rokas' Camp",
+    "target": "\\i[87]Acampamento de Rokas"
+  },
+  {
+    "source": "\\i[87]Rokas' Challenge",
+    "target": "\\i[87]O Desafio de Rokas"
+  },
+  {
+    "source": "\\i[87]The Burning Village.",
+    "target": "\\i[87]A Vila em Chamas"
+  },
+  {
+    "source": "\\i[87]The Errand Girl",
+    "target": "\\i[87]A Garota dos Recados"
+  },
+  {
+    "source": "\\i[87]The Fat Red Cloak",
+    "target": "\\i[87]O Manto Vermelho Gordo"
+  },
+  {
+    "source": "\\i[87]The Guard Service",
+    "target": "\\i[87]O Serviço da Guarda"
+  },
+  {
+    "source": "\\i[87]The tycoon's funeral",
+    "target": "\\i[87]O Funeral do Magnata"
+  },
+  {
+    "source": "\\i[87]The Young Red Cloak",
+    "target": "\\i[87]O Jovem Manto Vermelho"
+  },
+  {
+    "source": "\\i[87]Water Monday",
+    "target": "\\i[87]Segunda-feira da Água"
+  },
+  {
+    "source": "\\i[87]Water Monday Conclusion",
+    "target": "\\i[87]Conclusão da Segunda-feira da Água"
+  },
+  {
+    "source": "Abaddon's Abbey",
+    "target": "Abadia de Abaddon"
+  },
+  {
+    "source": "Abandoned Building",
+    "target": "Prédio Abandonado"
+  },
+  {
+    "source": "Abbadon's Abbey",
+    "target": "Abadia de Abaddon"
+  },
+  {
+    "source": "Astral Stage",
+    "target": "Plano Astral"
+  },
+  {
+    "source": "Bank",
+    "target": "Banco"
+  },
+  {
+    "source": "Blacksmiths' Guild",
+    "target": "Guilda dos Ferreiros"
+  },
+  {
+    "source": "Blacksmiths' Master",
+    "target": "Mestre dos Ferreiros"
+  },
+  {
+    "source": "Captain Jak",
+    "target": "Capitão Jak"
+  },
+  {
+    "source": "Carrot Peddler",
+    "target": "Vendedora de Cenouras"
+  },
+  {
+    "source": "Clown Ork",
+    "target": "Ork Palhaço"
+  },
+  {
+    "source": "Cryptoporticus",
+    "target": "Criptoporticus"
+  },
+  {
+    "source": "Dad",
+    "target": "Papai"
+  },
+  {
+    "source": "Easy",
+    "target": "Fácil"
+  },
+  {
+    "source": "Female Guard",
+    "target": "Guarda"
+  },
+  {
+    "source": "Fulana Beach",
+    "target": "Praia da Fulana"
+  },
+  {
+    "source": "Hard",
+    "target": "Difícil"
+  },
+  {
+    "source": "Home",
+    "target": "Casa"
+  },
+  {
+    "source": "Huck Neighbour",
+    "target": "Vizinho Huck"
+  },
+  {
+    "source": "Inn",
+    "target": "Estalagem"
+  },
+  {
+    "source": "Landlady",
+    "target": "Dona da Taverna"
+  },
+  {
+    "source": "Medium",
+    "target": "Média"
+  },
+  {
+    "source": "Medium-Hard",
+    "target": "Média-Difícil"
+  },
+  {
+    "source": "Melo's Quarter",
+    "target": "Aposentos de Melo"
+  },
+  {
+    "source": "Mercenary",
+    "target": "Mercenário"
+  },
+  {
+    "source": "Morgh's Palisade",
+    "target": "Paliçada de Morgh"
+  },
+  {
+    "source": "Museum",
+    "target": "Museu"
+  },
+  {
+    "source": "Outer St. Polla",
+    "target": "Arredores de St. Polla"
+  },
+  {
+    "source": "Outside The Castle",
+    "target": "Arredores do Castelo"
+  },
+  {
+    "source": "Patricians' Park",
+    "target": "Parque dos Patrícios"
+  },
+  {
+    "source": "People",
+    "target": "Pessoas"
+  },
+  {
+    "source": "Pink Guild",
+    "target": "Guilda Rosa"
+  },
+  {
+    "source": "Red Light District",
+    "target": "Distrito da Luz Vermelha"
+  },
+  {
+    "source": "Red-Light District",
+    "target": "Distrito da Luz Vermelha"
+  },
+  {
+    "source": "Rokas' Camp",
+    "target": "Acampamento de Rokas"
+  },
+  {
+    "source": "Ropo Guys",
+    "target": "Rapazes do Ropo"
+  },
+  {
+    "source": "Shaman Ork",
+    "target": "Xamã Ork"
+  },
+  {
+    "source": "Southern Gates",
+    "target": "Portões Sul"
+  },
+  {
+    "source": "Southern Watch",
+    "target": "Guarda Sul"
+  },
+  {
+    "source": "Southern Watch Castle",
+    "target": "Castelo da Guarda Sul"
+  },
+  {
+    "source": "St. Polla Cemetery",
+    "target": "Cemitério de St. Polla"
+  },
+  {
+    "source": "St. Polla Registry",
+    "target": "Cartório de St. Polla"
+  },
+  {
+    "source": "St. Polla Southern Gates",
+    "target": "Portões Sul de St. Polla"
+  },
+  {
+    "source": "St. Polla Southern Watch Yard",
+    "target": "Pátio da Guarda Sul de St. Polla"
+  },
+  {
+    "source": "Stables",
+    "target": "Estábulos"
+  },
+  {
+    "source": "Tailor's Guild",
+    "target": "Guilda dos Alfaiates"
+  },
+  {
+    "source": "The Groom",
+    "target": "O Noivo"
+  },
+  {
+    "source": "Von Dickity's Ranch",
+    "target": "Rancho dos Von Dickity"
+  },
+  {
+    "source": "West Market Plaza",
+    "target": "Praça do Mercado Oeste"
+  },
+  {
+    "source": "West St Polla",
+    "target": "Oeste de St. Polla"
+  },
+  {
+    "source": "West St Polla Factory",
+    "target": "Fábrica do Oeste de St. Polla"
+  },
+  {
+    "source": "Whipped Mike",
+    "target": "Mike Submisso"
+  }
+]
