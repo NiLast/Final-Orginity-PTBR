@@ -15,7 +15,7 @@ module.exports=function(patch,args){
  try{
   fs.mkdirSync(draft);for(const dir of ['data','js'])fs.cpSync(path.join(game,dir),path.join(draft,dir),{recursive:true});
   // Build Portuguese on a temporary copy; never deploy those data/script files.
-  let legacy=fs.readFileSync(path.join(patch,'conteudo/legacy-installer.cjs'),'utf8').replace('const patchDir = __dirname;',`const patchDir = ${JSON.stringify(patch)};`).replace("path.join(patchDir, 'relatorio-aplicacao.json')",`path.join(${JSON.stringify(work)}, 'legacy-report.json')`);
+  let legacy=fs.readFileSync(path.join(patch,'conteudo/preparar-traducao.cjs'),'utf8').replace('const patchDir = __dirname;',`const patchDir = ${JSON.stringify(patch)};`).replace("path.join(patchDir, 'relatorio-aplicacao.json')",`path.join(${JSON.stringify(work)}, 'legacy-report.json')`);
   legacy=legacy.replace(/^report\.eventRepairs = .*$/m,'report.eventRepairs = [];');
   legacy=legacy.replace(/^report\.questReferenceRepairs = .*$/m,'report.questReferenceRepairs = [];');
   legacy=legacy.replace(/require\('\.\/conteudo\/([^']+)'\)/g,(_,name)=>`require(${JSON.stringify(path.join(patch,'conteudo',name))})`);
@@ -60,12 +60,6 @@ module.exports=function(patch,args){
   }
   for(const [a,b]of [['Resolution','Resolução'],['Quit','Sair'],['Miss','Errou'],['Yes','Sim'],['No','Não'],['Text Speed','Velocidade do texto'],['ON','LIGADO'],['OFF','DESLIGADO']])ui(a,b);
   en['MLS.Language']='Language';pt['MLS.Language']='Idioma';
-  const editorial=json(path.join(patch,'conteudo/revisoes-editoriais-v16.json'));
-  report.editorialApplied=[];report.editorialSkipped=[];
-  for(const [key,target]of Object.entries(editorial)){
-   if(typeof en[key]!=='string'||typeof pt[key]!=='string'){report.editorialSkipped.push({key,reason:'occurrence-not-found'});continue;}
-   pt[key]=target;report.editorialApplied.push(key);
-  }
   // Six narrowly-scoped typo repairs for jumps to missing labels. They are
   // applied to the temporary build and later in memory; map files stay intact.
   const eventRules=json(path.join(patch,'conteudo/event-fixes.json'));
@@ -86,6 +80,6 @@ module.exports=function(patch,args){
   for(const [relative,content]of outputs){const target=path.join(game,relative);if(fs.existsSync(target)&&fs.readFileSync(target,'utf8')===content)continue;report.changed.push(relative);if(simulate)continue;if(fs.existsSync(target)){const dest=path.join(backup,relative);fs.mkdirSync(path.dirname(dest),{recursive:true});fs.copyFileSync(target,dest);}fs.mkdirSync(path.dirname(target),{recursive:true});fs.writeFileSync(target,content,'utf8');}
   report.entries=Object.keys(en).length;report.backup=simulate?null:backup;
   fs.writeFileSync(path.join(patch,'relatorio-aplicacao.json'),JSON.stringify(report,null,2));
-  console.log(JSON.stringify({version:17,simulate,entries:report.entries,editorial:report.editorialApplied.length,eventTypos:report.eventRepairs.filter(r=>r.status==='fixed').length,changed:report.changed,untranslated:report.untranslated.length,conflicts:report.conflicts.length},null,2));
+  console.log(JSON.stringify({version:17,simulate,entries:report.entries,eventTypos:report.eventRepairs.filter(r=>r.status==='fixed').length,changed:report.changed,untranslated:report.untranslated.length,conflicts:report.conflicts.length},null,2));
  }finally{const resolved=path.resolve(work),base=path.resolve(os.tmpdir())+path.sep;if(!resolved.startsWith(base)||!path.basename(resolved).startsWith('fo-bilingual-'))throw Error('Unsafe temporary cleanup');fs.rmSync(resolved,{recursive:true,force:true});}
 };

@@ -32,8 +32,7 @@ const questPath = path.join(patchDir, 'conteudo', 'missoes.json');
 const interfacePath = path.join(patchDir, 'conteudo', 'interface-missoes.json');
 const databasePath = path.join(patchDir, 'conteudo', 'interface-banco-ptbr.json');
 const javascriptPath = path.join(patchDir, 'conteudo', 'arquivos-js-ptbr.json');
-const correctionsPath = path.join(patchDir, 'conteudo', 'correcoes-dialogos.json');
-for (const required of [dialogPath, questPath, interfacePath, databasePath, javascriptPath, correctionsPath]) {
+for (const required of [dialogPath, questPath, interfacePath, databasePath, javascriptPath]) {
   if (!fs.existsSync(required)) throw new Error(`Arquivo do patch ausente: ${required}`);
 }
 
@@ -43,7 +42,7 @@ const sameControls = (a, b) => JSON.stringify(controls(a)) === JSON.stringify(co
 const dialogueRows = JSON.parse(fs.readFileSync(dialogPath, 'utf8'));
 const dictionary = new Map();
 const targets = new Set();
-for (const row of dialogueRows) {
+for (const row of dialogueRows.filter(row => !row.correction && !row.occurrence)) {
   const source = String(row.source ?? '').trim();
   const target = String(row.target ?? '').trim();
   if (!source || !target) throw new Error('Entrada vazia em dialogos.json');
@@ -52,7 +51,7 @@ for (const row of dialogueRows) {
   dictionary.set(source, target);
   targets.add(target);
 }
-const correctionRows = JSON.parse(fs.readFileSync(correctionsPath, 'utf8'));
+const correctionRows = dialogueRows.filter(row => row.correction);
 const corrections = new Map(correctionRows.filter(row => !row.speaker).map(row => [String(row.source).trim(), String(row.target).trim()]));
 const contextualCorrections = new Map(correctionRows.filter(row => row.speaker).map(row => [`${String(row.speaker).trim()}\0${String(row.source).trim()}`, String(row.target).trim()]));
 let dialogueCorrections = 0;
@@ -401,8 +400,7 @@ report.eventRepairs = [];
 report.questReferenceRepairs = [];
 report.questTextRepairs = require('./conteudo/quest-text-fixes.js')(game, simulate, backup);
 report.localization = require('./conteudo/install-mls.js')(game, simulate, backup);
-report.pendingReview = JSON.parse(fs.readFileSync(path.join(patchDir,'conteudo','revisao-pendente.json'),'utf8')).filter(row=>finalTexts.has(row.current));
-report.englishDetectionNotice = 'Busca heuristica limitada: zero candidatos nao certifica ausencia de ingles. Consulte pendingReview e a lista de revisao.';
+report.englishDetectionNotice = 'Busca heuristica limitada: zero candidatos nao certifica ausencia de ingles.';
 const reportPath = path.join(patchDir, 'relatorio-aplicacao.json');
 fs.writeFileSync(reportPath, JSON.stringify(report, null, 2));
 console.log('');
@@ -415,7 +413,6 @@ console.log(`Textos de menus e banco de dados: ${report.databaseReplacements}`);
 console.log(`Textos de plugins e interface: ${report.javascriptReplacements}`);
 console.log(`Arquivos de eventos alterados: ${fileReports.length}`);
 console.log(`Possiveis textos novos em ingles: ${possibleNewEnglishText.length}`);
-console.log(`Textos aguardando decisao contextual: ${report.pendingReview.length}`);
 console.log(report.englishDetectionNotice);
 console.log(`Relatorio: ${reportPath}`);
 if (simulate) console.log('Modo simulacao: nenhum arquivo do jogo foi gravado.');
