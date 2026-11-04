@@ -5,7 +5,7 @@ const plugins=f=>{const s=fs.readFileSync(f,'utf8');return JSON.parse(s.slice(s.
 module.exports=function(patch,args){
  const supplied=args.includes('--game')?args[args.indexOf('--game')+1]:'',simulate=args.includes('--simulate');
  if(supplied&&(!fs.existsSync(path.join(supplied,'data/System.json'))||!fs.existsSync(path.join(supplied,'js/plugins.js'))))throw Error('Pasta informada nao contem o jogo: '+supplied);
- const game=path.resolve([supplied,patch,path.dirname(patch),'D:/Desktop/Final_Orginity_v0.6.0_B_WIN'].filter(Boolean).find(p=>fs.existsSync(path.join(p,'data/System.json'))&&fs.existsSync(path.join(p,'js/plugins.js')))||'');
+ const game=path.resolve([supplied,patch,path.dirname(patch)].filter(Boolean).find(p=>fs.existsSync(path.join(p,'data/System.json'))&&fs.existsSync(path.join(p,'js/plugins.js')))||'');
  if(!fs.existsSync(path.join(game,'data/System.json')))throw Error('Informe a pasta original em ingles com --game.');
  const originalPlugins=plugins(path.join(game,'js/plugins.js'));
  const manifest=path.join(game,'languages/fo-bilingual/manifest.json');
@@ -15,15 +15,13 @@ module.exports=function(patch,args){
  try{
   fs.mkdirSync(draft);for(const dir of ['data','js'])fs.cpSync(path.join(game,dir),path.join(draft,dir),{recursive:true});
   // Build Portuguese on a temporary copy; never deploy those data/script files.
-  let legacy=fs.readFileSync(path.join(patch,'conteudo/preparar-traducao.cjs'),'utf8').replace('const patchDir = __dirname;',`const patchDir = ${JSON.stringify(patch)};`).replace("path.join(patchDir, 'relatorio-aplicacao.json')",`path.join(${JSON.stringify(work)}, 'legacy-report.json')`);
-  legacy=legacy.replace(/^report\.eventRepairs = .*$/m,'report.eventRepairs = [];');
-  legacy=legacy.replace(/^report\.questReferenceRepairs = .*$/m,'report.questReferenceRepairs = [];');
-  legacy=legacy.replace(/require\('\.\/conteudo\/([^']+)'\)/g,(_,name)=>`require(${JSON.stringify(path.join(patch,'conteudo',name))})`);
-  const runner=path.join(work,'build.cjs');fs.writeFileSync(runner,legacy);
+  let build=fs.readFileSync(path.join(patch,'conteudo/preparar-traducao.cjs'),'utf8').replace('const patchDir = __dirname;',`const patchDir = ${JSON.stringify(patch)};`).replace("path.join(patchDir, 'relatorio-aplicacao.json')",`path.join(${JSON.stringify(work)}, 'build-report.json')`);
+  build=build.replace(/require\('\.\/conteudo\/([^']+)'\)/g,(_,name)=>`require(${JSON.stringify(path.join(patch,'conteudo',name))})`);
+  const runner=path.join(work,'build.cjs');fs.writeFileSync(runner,build);
   const run=cp.spawnSync(process.execPath,[runner,'--game',draft],{encoding:'utf8',windowsHide:true,maxBuffer:16*1024*1024});
   if(run.status!==0)throw Error('Falha ao preparar catalogo: '+run.stderr+'\n'+run.stdout);
-  const legacyReport=json(path.join(work,'legacy-report.json'));
-  report.untranslated=legacyReport.possibleNewEnglishText;report.sourceWarnings={database:legacyReport.databaseMismatches,javascript:legacyReport.javascriptMismatches};
+  const buildReport=json(path.join(work,'build-report.json'));
+  report.untranslated=buildReport.possibleNewEnglishText;report.sourceWarnings={database:buildReport.databaseMismatches,javascript:buildReport.javascriptMismatches};
   const translatedPlugins=plugins(path.join(draft,'js/plugins.js'));
   const en={},pt={},bindings={version:2,files:{},display:{},questParameters:{},fragments:{}};
   const add=(source,target,key)=>{en[key]=source;pt[key]=target;return '${'+key+'}';};

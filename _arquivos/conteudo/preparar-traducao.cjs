@@ -15,7 +15,6 @@ const candidates = [
   game,
   patchDir,
   path.dirname(patchDir),
-  'D:/Desktop/Final Orginity',
 ].filter(Boolean);
 game = candidates.find(candidate =>
   fs.existsSync(path.join(candidate, 'data'))
@@ -42,7 +41,7 @@ const sameControls = (a, b) => JSON.stringify(controls(a)) === JSON.stringify(co
 const dialogueRows = JSON.parse(fs.readFileSync(dialogPath, 'utf8'));
 const dictionary = new Map();
 const targets = new Set();
-for (const row of dialogueRows.filter(row => !row.correction && !row.occurrence)) {
+for (const row of dialogueRows.filter(row => !row.correction)) {
   const source = String(row.source ?? '').trim();
   const target = String(row.target ?? '').trim();
   if (!source || !target) throw new Error('Entrada vazia em dialogos.json');
@@ -399,7 +398,7 @@ const report = {
 report.eventRepairs = [];
 report.questReferenceRepairs = [];
 report.questTextRepairs = require('./conteudo/quest-text-fixes.js')(game, simulate, backup);
-report.localization = require('./conteudo/install-mls.js')(game, simulate, backup);
+report.localization = require('./conteudo/preparar-interface.cjs')(game, simulate, backup);
 report.englishDetectionNotice = 'Busca heuristica limitada: zero candidatos nao certifica ausencia de ingles.';
 const reportPath = path.join(patchDir, 'relatorio-aplicacao.json');
 fs.writeFileSync(reportPath, JSON.stringify(report, null, 2));
