@@ -50,7 +50,7 @@ for (const row of dialogueRows.filter(row => !row.correction)) {
   dictionary.set(source, target);
   targets.add(target);
 }
-const correctionRows = dialogueRows.filter(row => row.correction);
+const correctionRows = dialogueRows.filter(row => row.correction && !row.location);
 const corrections = new Map(correctionRows.filter(row => !row.speaker).map(row => [String(row.source).trim(), String(row.target).trim()]));
 const contextualCorrections = new Map(correctionRows.filter(row => row.speaker).map(row => [`${String(row.speaker).trim()}\0${String(row.source).trim()}`, String(row.target).trim()]));
 let dialogueCorrections = 0;

@@ -23,10 +23,16 @@ module.exports=function(patch,args){
   const buildReport=json(path.join(work,'build-report.json'));
   report.untranslated=buildReport.possibleNewEnglishText;report.sourceWarnings={database:buildReport.databaseMismatches,javascript:buildReport.javascriptMismatches};
   const translatedPlugins=plugins(path.join(draft,'js/plugins.js'));
+  const dialogueLocations = new Map();
+  for (const row of json(path.join(patch, 'conteudo/dialogos.json'))) {
+    if (!row.correction || !row.location) continue;
+    if (dialogueLocations.has(row.location)) throw Error('Correcao de dialogo duplicada: ' + row.location);
+    dialogueLocations.set(row.location, row);
+  }
   const en={},pt={},bindings={version:2,files:{},display:{},questParameters:{},fragments:{}};
   const add=(source,target,key)=>{en[key]=source;pt[key]=target;return '${'+key+'}';};
   const ui=(source,target)=>{if(!source||source===target)return source;const key='UI.'+crypto.createHash('sha256').update(source).digest('hex');if(pt[key]&&pt[key]!==target){report.conflicts.push({source,first:pt[key],other:target});return source;}bindings.display[source]=key;return add(source,target,key);};
-  function field(file,a,b,route,key){let x=a,y=b;for(const part of route){x=x?.[part];y=y?.[part];}if(typeof x!=='string'||typeof y!=='string'||!x.trim())return;add(x,y,key);(bindings.files[file]||=[]).push({path:route,source:x,key});}
+  function field(file,a,b,route,key){let x=a,y=b;for(const part of route){x=x?.[part];y=y?.[part];}if(typeof x!=='string'||typeof y!=='string'||!x.trim())return;const fix = dialogueLocations.get(key);add(x,fix?.source === x.trim() ? fix.target : y,key);(bindings.files[file]||=[]).push({path:route,source:x,key});}
   for(const file of fs.readdirSync(path.join(game,'data')).filter(f=>/^(Map\d+|CommonEvents|Troops)\.json$/.test(f))){
    const a=json(path.join(game,'data',file)),b=json(path.join(draft,'data',file)),common=file==='CommonEvents.json',array=Array.isArray(a);
    for(const e of (array?a:a.events)||[]){if(!e)continue;for(const [p,page]of(common?[{list:e.list}]:e.pages).entries()){
