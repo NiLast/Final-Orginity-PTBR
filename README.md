@@ -17,7 +17,7 @@ Mantenha a pasta `_arquivos` junto do instalador.
 
 ## Sobre esta versão
 
-O patch acompanha o **Final Orginity 0.6.0 C para Windows** e também funciona na revisão **0.6.0 B**.
+O patch é para **Final Orginity 0.6.0 C no Windows**.
 
 O pacote traduz diálogos, escolhas, menus e textos de missões, mantendo o inglês disponível. A instalação preserva os arquivos de mapas e os saves no disco.
 
