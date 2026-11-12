@@ -138865,7 +138865,7 @@
   },
   {
     "source": "THIS GUY IS THE F***ING MASTER!",
-    "target": "ESSE CARA É O F***ING MESTRE!"
+    "target": "ESSE CARA É O MESTRE, PORRA!"
   },
   {
     "source": "this guy orders in my life.",
@@ -173324,11 +173324,6 @@
   {
     "source": "Um, bye!!",
     "target": "Ahm, tchau!!",
-    "correction": true
-  },
-  {
-    "source": "ESSE CARA É O F***ING MESTRE!",
-    "target": "ESSE CARA É O MESTRE DESSA P***A!",
     "correction": true
   },
   {
