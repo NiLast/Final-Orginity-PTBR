@@ -23,10 +23,6 @@ O pacote traduz diálogos, escolhas, menus e textos de missões, mantendo o ingl
 
 O download contém o patch; o jogo deve ser obtido separadamente. As licenças dos componentes de terceiros acompanham o pacote.
 
-## Créditos
-
-**Tradução PT-BR: [NiLast](https://github.com/NiLast).**
-
 ## Encontrou um erro?
 
 [Abra uma issue](https://github.com/NiLast/Final-Orginity-PTBR/issues) com a frase, o local ou a cena e, se possível, uma captura de tela. Informe também a versão do jogo.
