@@ -4,7 +4,7 @@ Tradução não oficial de Final Orginity para português brasileiro, com opçã
 
 ## Download
 
-[Final Orginity 0.6.0 C (Windows)](https://github.com/NiLast/Final-Orginity-PTBR/releases/download/v0.6.0-C/Final-Orginity-v0.6.0-C-PTBR.zip)
+[Final Orginity 0.6.0 C (Windows) — PT-BR](https://github.com/NiLast/Final-Orginity-PTBR/releases/download/v0.6.0-C/Final-Orginity-v0.6.0-C-PTBR.zip)
 
 ## Instalação
 
