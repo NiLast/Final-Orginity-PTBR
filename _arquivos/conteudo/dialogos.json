@@ -172783,11 +172783,6 @@
     "correction": true
   },
   {
-    "source": "O-o que você está fazendo aqui fora sozinho?",
-    "target": "O-o que você está fazendo aqui fora sozinha?",
-    "correction": true
-  },
-  {
     "source": "Estou pronto para mais ação!",
     "target": "Estou pronta para mais ação!",
     "correction": true
@@ -176119,5 +176114,163 @@
     "location": "Map020.E5.P9.C107.T4",
     "source": "ç",
     "target": ""
+  },
+  {
+    "source": "Because I'm sure we would've seen everything!",
+    "target": "Porque com certeza daria para ver tudo!"
+  },
+  {
+    "source": "And ugh, why does Jenny have to be so BLESSED in",
+    "target": "E, aff, por que a Jenny tem que ser tão BEM-DOTADA"
+  },
+  {
+    "source": "I-it's clear that she plays in a different league.",
+    "target": "É-é óbvio que ela está em outro patamar."
+  },
+  {
+    "source": "I was just thinking now that you're a TOTAL BABE!",
+    "target": "Eu só tava pensando que você virou um MULHERÃO!"
+  },
+  {
+    "source": "But, hey. You know what?",
+    "target": "Mas, ei... sabe de uma coisa?"
+  },
+  {
+    "source": "Someday you and I will go to the BIG CITY and load up",
+    "target": "Um dia nós duas vamos à CIDADE GRANDE comprar"
+  },
+  {
+    "source": "on all kinds of pretty clothes.",
+    "target": "todo tipo de roupa linda."
+  },
+  {
+    "source": "Head to the bank NOW Amy, your appointment with Mr Botin",
+    "target": "Vá ao banco AGORA, Amy! Sua reunião com o Sr. Botin"
+  },
+  {
+    "source": "is just due.",
+    "target": "já vai começar."
+  },
+  {
+    "source": "Does he sleep with the damn thing?",
+    "target": "Ele dorme com a maldita coisa?"
+  },
+  {
+    "source": "Everytime he has to work, he carries it with him, or...",
+    "target": "Toda vez que trabalha, leva o livro consigo, ou..."
+  },
+  {
+    "source": "Gather intel, specially among OTHER BANKERS...",
+    "target": "Reúna informações, especialmente entre OUTROS BANQUEIROS..."
+  },
+  {
+    "source": "N-now you mention I-I can speak with THORGTIM about that...",
+    "target": "A-agora que você falou, p-posso falar com THORGRIM sobre isso..."
+  },
+  {
+    "source": "(W-what's with the silent treatment? A-and with that glare?!",
+    "target": "(P-por que esse silêncio? E-e esse olhar?!"
+  },
+  {
+    "source": "H-he better not rat me out!)",
+    "target": "É melhor e-ele não me entregar!)"
+  },
+  {
+    "source": "Howdy, howdy! I'm from the CLOWN'S GUILD!",
+    "target": "Olá, olá! Sou da GUILDA DOS BOBOS!"
+  },
+  {
+    "source": "It's OPENING DAY at our new show today... You should come!",
+    "target": "Hoje ESTREIA o nosso novo espetáculo... Venha ver!"
+  },
+  {
+    "source": "Well, it's going fine so far, it's just...",
+    "target": "Bem, está tudo bem até agora, é só que..."
+  },
+  {
+    "source": "I've been just admitted ta the guild. I came 'ere with",
+    "target": "Acabei de entrar na guilda. Vim pra cá com"
+  },
+  {
+    "source": "the dream of puttin' laughter in everyone's hearts...",
+    "target": "o sonho de colocar alegria no coração de todos..."
+  },
+  {
+    "source": "but crappy jobs...",
+    "target": "além de trabalhos ruins..."
+  },
+  {
+    "source": "Like, 'ere I am, sellin' tickets...",
+    "target": "Tipo, olha eu aqui, vendendo ingressos..."
+  },
+  {
+    "source": "long boyfriend broke up with me!!",
+    "target": "a vida terminou comigo!!"
+  },
+  {
+    "source": "And he did it over carrier crow!! The gall o' that",
+    "target": "E fez isso por corvo-correio!! Que audácia daquele"
+  },
+  {
+    "source": "deadbeat...",
+    "target": "imprestável..."
+  },
+  {
+    "source": "Because, you know? I happen to know a single, dashing,",
+    "target": "Porque, sabe? Por acaso conheço um anão solteiro,"
+  },
+  {
+    "source": "well-off dwarf that's also from Karaz-A-Karak...",
+    "target": "elegante e bem de vida que também é de Karaz-A-Karak..."
+  },
+  {
+    "source": "But first. Let us see zose PUPPIES. Show me!",
+    "target": "Mas primeiro, deixa eu ver esses FILHOTINHOS. Mostre!"
+  },
+  {
+    "source": "MY PUPPIES?!",
+    "target": "MEUS FILHOTINHOS?!"
+  },
+  {
+    "source": "I'm really sorry, guys, but I'm looking for REGULAR PEOPLE",
+    "target": "Sinto muito, pessoal, mas estou procurando PESSOAS COMUNS"
+  },
+  {
+    "source": "(I can NOT help these goblin ladies...)",
+    "target": "(Eu NÃO posso ajudar essas garotas goblins...)"
+  },
+  {
+    "source": "(Not after what I have done!)",
+    "target": "(Não depois do que eu fiz!)"
+  },
+  {
+    "source": "Oh, you mean THOSE goblins...",
+    "target": "Ah, vocês querem dizer AQUELES goblins..."
+  },
+  {
+    "source": "D-don't tell me youse already meet'em!",
+    "target": "N-não me diga que ocê já encontrou eles!"
+  },
+  {
+    "source": "(And I've already KILL them.)",
+    "target": "(E eu já MATEI eles.)"
+  },
+  {
+    "source": "Didya say something?",
+    "target": "Ocê disse alguma coisa?"
+  },
+  {
+    "source": "Sorry ladies, I'm afraid I can NOT help you.",
+    "target": "Desculpem, garotas, receio que NÃO posso ajudar vocês."
+  },
+  {
+    "source": "Wait blondie, w-what do ya mean!?",
+    "target": "Espera, loira, c-como assim!?"
+  },
+  {
+    "correction": true,
+    "location": "Map152.E3.P0.C1.T0",
+    "source": "Exit",
+    "target": "Saída"
   }
 ]

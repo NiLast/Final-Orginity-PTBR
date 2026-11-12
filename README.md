@@ -4,7 +4,7 @@ Tradução não oficial de Final Orginity para português brasileiro, com opçã
 
 ## Download
 
-[Baixar a tradução para Final Orginity v0.6.0 B (Windows)](https://github.com/NiLast/Final-Orginity-PTBR/releases/download/v0.6.0-B/Final-Orginity-v0.6.0-B-PTBR.zip)
+[Baixar a tradução para Final Orginity 0.6.0 C (Windows)](https://github.com/NiLast/Final-Orginity-PTBR/releases/download/v0.6.0-C/Final-Orginity-v0.6.0-C-PTBR.zip)
 
 ## Instalação
 
@@ -17,7 +17,7 @@ Mantenha a pasta `_arquivos` junto do instalador.
 
 ## Sobre esta versão
 
-**Versão do jogo usada como base: Final Orginity v0.6.0 B — Windows.**
+O patch acompanha o **Final Orginity 0.6.0 C para Windows** e também funciona na revisão **0.6.0 B**.
 
 O pacote traduz diálogos, escolhas, menus e textos de missões, mantendo o inglês disponível. A instalação preserva os arquivos de mapas e os saves no disco.
 
